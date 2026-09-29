@@ -1,0 +1,24 @@
+/*
+ * THÈME ELV8co pour Tailwind (couleurs, polices, rayons, easing).
+ * Miroir de src/theme/tokens.ts : gardez les deux fichiers synchronisés.
+ * Chaque couleur devient une classe Tailwind : bg-night, text-copper-light, border-surface…
+ */
+@theme {
+  --color-night: #1a2e45;
+  --color-deep: #0d1b2a;
+  --color-surface: #1e3a55;
+  --color-copper: #c87941;
+  --color-copper-light: #e09055;
+  --color-ivory: #f3eee6;
+  --color-grey: #9fb0bf;
+
+  --font-display: var(--font-instrument), "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+
+  --radius-card: 1.25rem;
+
+  --breakpoint-xs: 420px;
+}
