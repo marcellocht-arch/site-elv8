@@ -158,6 +158,7 @@ export function Header() {
           <Magnetic strength={0.25}>
             <Link
               href={bookingHref}
+              {...(/^https?:\/\//.test(bookingHref) ? { target: "_blank", rel: "noopener noreferrer" } : {})}
               className="group inline-flex items-center gap-2 rounded-full bg-copper-light px-4 py-2.5 text-sm font-semibold text-deep transition-colors hover:bg-ivory sm:px-5"
             >
               <span className="relative flex h-2 w-2" aria-hidden>

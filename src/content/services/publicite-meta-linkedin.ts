@@ -23,6 +23,7 @@ const content: ServiceContent = {
     intro:
       "Facebook, Instagram et LinkedIn permettent de cibler précisément les habitants d'une zone, les dirigeants d'un secteur ou les personnes qui ont déjà vu vos vidéos. Nous concevons et pilotons des campagnes qui se jugent sur un seul critère : les clients qu'elles vous apportent.",
   },
+  video: { title: "La publicité Meta & LinkedIn en 30 secondes", src: "/videos/elv8co-03-publicite.mp4", poster: "/images/elv8co-03-publicite.jpg" },
   signature: "ads",
   problem: {
     title: "« J'ai déjà essayé de *booster* une publication. Ça n'a rien donné. »",
@@ -92,7 +93,7 @@ const content: ServiceContent = {
     ],
   },
   faq: [
-    { q: "Quel budget publicitaire prévoir ?", a: "Il n'y a pas de montant universel : tout dépend de votre zone, de votre offre et de votre objectif. Nous recommandons de commencer par un budget de test raisonnable, puis d'augmenter uniquement ce qui prouve sa rentabilité. Le budget publicitaire est distinct de nos honoraires de gestion : [À COMPLÉTER : honoraires de gestion]." },
+    { q: "Quel budget publicitaire prévoir ?", a: "Il n'y a pas de montant universel : tout dépend de votre zone, de votre offre et de votre objectif. Nous recommandons de commencer par un budget de test raisonnable, puis d'augmenter uniquement ce qui prouve sa rentabilité. Le budget publicitaire est distinct de nos honoraires de gestion, établis sur devis (accompagnements à partir de 300 € par mois)." },
     { q: "Facebook, Instagram ou LinkedIn : lequel choisir ?", a: "Meta (Facebook et Instagram) est très efficace pour toucher le grand public dans une zone géographique précise : commerces, restaurants, artisans, immobilier. LinkedIn est plus cher par contact, mais imbattable pour cibler des dirigeants ou des fonctions précises en B2B. Souvent, on commence par l'un des deux." },
     { q: "Mon compte publicitaire m'appartient-il ?", a: "Oui. Les campagnes tournent sur votre compte publicitaire, avec votre moyen de paiement. Vous gardez l'accès, l'historique et les données, même si vous arrêtez de travailler avec nous." },
     { q: "Combien de temps avant les premiers résultats ?", a: "Les premières données arrivent dès les premiers jours. Il faut ensuite un peu de temps pour que les algorithmes apprennent et que nous identifiions les meilleures annonces. Nous faisons des points réguliers pour décider ensemble de la suite." },
@@ -100,7 +101,7 @@ const content: ServiceContent = {
     { q: "Et le RGPD, les cookies, le pixel ?", a: "Le suivi des conversions nécessite le consentement de vos visiteurs. Nous configurons le pixel et les outils de mesure pour qu'ils ne se déclenchent qu'après accord, conformément au RGPD." },
   ],
   cta: { title: "Faisons *travailler* votre budget", text: "30 minutes pour estimer ce que la publicité peut vraiment vous rapporter." },
-  relatedCases: ["akp-kustom", "dessy-immo", "solidas"],
+  relatedCases: ["akp-kustom", "solidas", "dessy-immo"],
 };
 
 export default content;

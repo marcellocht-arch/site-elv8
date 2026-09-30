@@ -28,16 +28,15 @@ const content: CaseStudyContent = {
     { value: 39, suffix: "×", label: "la mise publicitaire" },
   ],
   context: [
-    "AKP Kustom est un atelier textile basé à Liège. Son métier se prête parfaitement à la vidéo : la matière, les gestes, les étapes de fabrication et le résultat final sont visuels et satisfaisants à regarder.",
-    "Comme beaucoup d'artisans, l'atelier dépendait largement du bouche-à-oreille. [À COMPLÉTER : situation de départ précise d'AKP Kustom (présence en ligne, nombre d'abonnés, canaux utilisés)].",
+    "AKP Kustom est un atelier liégeois de personnalisation textile et d'impression DTF. Son métier se prête parfaitement à la vidéo : la matière, les gestes, les étapes de fabrication et le résultat final sont visuels et satisfaisants à regarder.",
+    "Comme beaucoup d'artisans, l'atelier dépendait largement du bouche-à-oreille.",
   ],
   objective: [
     "Faire découvrir l'atelier à un public plus large, principalement dans la région liégeoise, et transformer cette visibilité en commandes concrètes.",
-    "[À COMPLÉTER : objectif chiffré éventuel fixé avec le client].",
   ],
   actions: [
     { title: "Contenu vidéo vertical", text: "Tournage et montage de vidéos courtes montrant le travail de l'atelier, pensées pour Instagram, TikTok et Facebook. L'une d'elles a atteint 24 900 vues en organique, sans aucun budget publicitaire." },
-    { title: "Publicité Meta ciblée", text: "Une campagne avec un budget volontairement réduit (20 €), ciblée sur une audience précise, pour vérifier que la visibilité pouvait se transformer en ventes." },
+    { title: "Publicité Meta ciblée", text: "Une campagne avec un budget volontairement réduit (20 €), ciblée sur une audience précise, renvoyant vers un formulaire de demande simple (Tally), pour vérifier que la visibilité pouvait se transformer en ventes." },
     { title: "Suivi des résultats", text: "Mesure de ce qui compte : les demandes reçues, les clients signés et le chiffre d'affaires généré, pas seulement les vues." },
   ],
   results: {
@@ -46,12 +45,7 @@ const content: CaseStudyContent = {
       "Ce cas illustre parfaitement notre approche : les vues sont un moyen, pas une fin. La vraie question reste de savoir si la visibilité ramène des clients. Ici, la réponse est oui.",
     ],
   },
-  videos: [
-    { title: "Vidéo à 24 900 vues", caption: "La vidéo organique la plus vue. [À COMPLÉTER : ajouter le fichier vidéo]" },
-    { title: "Annonce publicitaire", caption: "La vidéo utilisée pour la campagne à 20 €. [À COMPLÉTER : confirmer et ajouter le fichier]" },
-    { title: "Coulisses de l'atelier", caption: "[À COMPLÉTER : titre et fichier vidéo]" },
-  ],
-  testimonial: { quote: "[À COMPLÉTER : témoignage réel du client, avec son accord]", author: "[À COMPLÉTER : nom et fonction]" },
+  videos: [],
   cardSummary: "Une vidéo à 24 900 vues en organique, puis 20 € de publicité transformés en 780 € de chiffre d'affaires.",
 };
 

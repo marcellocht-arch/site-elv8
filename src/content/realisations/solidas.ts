@@ -1,52 +1,50 @@
 import type { CaseStudyContent } from "../types";
 
-/** Page /realisations/solidas — aucun chiffre connu : ne rien inventer. */
+/** Page /realisations/solidas — chiffres fournis par ELV8co, à ne pas modifier sans source. */
 const content: CaseStudyContent = {
   slug: "solidas",
   client: "Solidas",
   sector: "Courtier en assurances",
-  location: "[À COMPLÉTER : ville]",
-  services: ["contenu-video"],
+  location: "Herve",
+  services: ["contenu-video", "personal-branding", "publicite-meta-linkedin"],
   seo: {
-    title: "Solidas : vidéos pédagogiques d'assurance | ELV8co",
+    title: "Solidas : vidéos et publicité pour un courtier | ELV8co",
     description:
-      "Étude de cas Solidas, courtier en assurances : des vidéos pédagogiques en motion design, comme « comment déclarer un sinistre ».",
-    keywords: { primary: "motion design courtier assurances", variants: ["vidéo pédagogique assurance", "Solidas courtier", "vidéo explicative sinistre"] },
-    ogTitle: "Solidas · vidéos pédagogiques",
+      "Étude de cas Solidas, courtier en assurances : motion design pédagogique, vidéos de personal branding et un tunnel Meta qui signe un contrat obsèques par mois.",
+    keywords: { primary: "marketing courtier assurances", variants: ["motion design assurance", "Solidas courtier", "publicité Meta assurance obsèques"] },
+    ogTitle: "Solidas · 1 contrat par mois",
   },
   hero: {
-    eyebrow: "Étude de cas · Courtage en assurances",
-    h1: "Solidas : rendre l'assurance *enfin claire*",
+    eyebrow: "Étude de cas · Courtage en assurances · Herve",
+    h1: "Solidas : rendre l'assurance *claire*, et la faire *choisir*",
     intro:
-      "L'assurance est un métier de confiance, mais aussi un sujet que la plupart des gens trouvent compliqué. Pour Solidas, courtier en assurances, nous avons créé des vidéos pédagogiques en motion design qui expliquent simplement les démarches que les assurés redoutent.",
+      "L'assurance est un métier de confiance, mais aussi un sujet que la plupart des gens trouvent compliqué. Pour Solidas, nous avons combiné motion design pédagogique, vidéos de personal branding au nom de l'entreprise et un tunnel publicitaire dédié à l'assurance obsèques.",
   },
-  stats: [],
+  stats: [
+    { value: 1, label: "contrat obsèques signé par mois en moyenne" },
+    { value: 60, suffix: " €", label: "de publicité Meta par mois" },
+  ],
   context: [
-    "Solidas est un courtier en assurances. Dans ce métier, la relation se joue souvent au pire moment pour le client : un dégât des eaux, un accident, un vol. C'est précisément là qu'un bon courtier fait la différence, en expliquant, en rassurant et en accompagnant.",
-    "[À COMPLÉTER : présentation de Solidas (localisation, ancienneté, type de clientèle) et situation de départ].",
+    "Solidas est un courtier en assurances. Dans ce métier, la relation se joue souvent au pire moment pour le client : un dégât des eaux, un accident, un décès. C'est précisément là qu'un bon courtier fait la différence, en expliquant, en rassurant et en accompagnant.",
+    "Encore faut-il que les clients sachent qui est derrière l'entreprise, et qu'ils pensent à elle au bon moment.",
   ],
   objective: [
     "Démontrer l'expertise et la disponibilité du courtier en répondant, en vidéo, aux questions que ses clients se posent le plus souvent.",
-    "[À COMPLÉTER : objectif précis fixé avec Solidas].",
+    "Générer régulièrement de nouveaux contrats d'assurance obsèques avec un petit budget publicitaire maîtrisé.",
   ],
   actions: [
-    { title: "Choix des sujets", text: "Identification des démarches et questions qui reviennent le plus souvent chez les assurés, comme la déclaration d'un sinistre." },
-    { title: "Motion design pédagogique", text: "Des vidéos animées, au format vertical, qui décomposent chaque démarche en étapes simples et visuelles. Exemple : « comment déclarer un sinistre »." },
-    { title: "Diffusion", text: "[À COMPLÉTER : canaux de diffusion utilisés (réseaux sociaux, site, envoi aux clients…)]." },
+    { title: "Motion design pédagogique", text: "Des vidéos animées, au format vertical, qui décomposent les démarches que les assurés redoutent en étapes simples et visuelles. Exemple : « comment déclarer un sinistre »." },
+    { title: "Personal branding", text: "Des vidéos au nom de l'entreprise pour mettre un visage et une voix sur Solidas, et installer la confiance avant même le premier contact." },
+    { title: "Tunnel publicitaire Meta", text: "Une campagne Facebook et Instagram dédiée à l'assurance obsèques, qui renvoie vers un formulaire de demande simple (Tally). Chaque demande arrive directement chez le courtier." },
   ],
   results: {
     paragraphs: [
-      "Des contenus utiles, réutilisables dans la durée, que le courtier peut partager à ses clients au moment où ils en ont besoin et publier sur ses réseaux pour démontrer son expertise.",
-      "[À COMPLÉTER : résultats observés (retours clients, demandes, statistiques), uniquement s'ils sont vérifiables].",
+      "Avec environ 60 € de publicité par mois, le tunnel dédié à l'assurance obsèques permet de signer en moyenne un nouveau contrat chaque mois.",
+      "À côté, les vidéos pédagogiques restent utiles dans la durée : le courtier peut les partager à ses clients au moment où ils en ont besoin et les publier sur ses réseaux pour démontrer son expertise.",
     ],
   },
-  videos: [
-    { title: "Comment déclarer un sinistre", caption: "Vidéo pédagogique en motion design. [À COMPLÉTER : ajouter le fichier vidéo]" },
-    { title: "Vidéo pédagogique n° 2", caption: "[À COMPLÉTER : titre et fichier vidéo]" },
-    { title: "Vidéo pédagogique n° 3", caption: "[À COMPLÉTER : titre et fichier vidéo]" },
-  ],
-  testimonial: { quote: "[À COMPLÉTER : témoignage réel du client, avec son accord]", author: "[À COMPLÉTER : nom et fonction]" },
-  cardSummary: "Des vidéos pédagogiques en motion design pour expliquer simplement les démarches d'assurance, comme la déclaration d'un sinistre.",
+  videos: [],
+  cardSummary: "Motion design, vidéos de personal branding et un tunnel Meta à 60 € par mois qui signe un contrat obsèques par mois.",
 };
 
 export default content;

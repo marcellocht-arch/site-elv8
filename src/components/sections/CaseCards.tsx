@@ -13,7 +13,7 @@ export function CaseCards({ slugs, headingLevel = "h3" }: { slugs?: string[]; he
   const items = slugs ? slugs.map((s) => caseStudies.find((c) => c.slug === s)!).filter(Boolean) : caseStudies;
   const H = headingLevel;
   return (
-    <Reveal stagger={0.12} className={`grid gap-5 ${items.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
+    <Reveal stagger={0.12} className={`grid gap-5 ${items.length === 2 ? "md:grid-cols-2" : items.length === 4 ? "md:grid-cols-2 xl:grid-cols-4" : "md:grid-cols-3"}`}>
       {items.map((c, i) => {
         const stat = c.stats[0];
         return (

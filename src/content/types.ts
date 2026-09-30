@@ -25,6 +25,8 @@ export type Cta = { title: string; text: string; button?: string };
 
 export type ServiceSignature = "branding" | "video" | "ads" | "web" | "community";
 
+export type Video = { title: string; src: string; poster?: string; caption?: string };
+
 export type ServiceContent = {
   slug: string;
   kind: "principal" | "complementaire";
@@ -36,6 +38,8 @@ export type ServiceContent = {
   tagline: string;
   seo: Seo;
   hero: { eyebrow: string; h1: string; intro: string };
+  /** Vidéo 9:16 affichée dans le hero (remplace le badge du pilier). */
+  video?: Video;
   signature: ServiceSignature;
   problem: { title: string; paragraphs: string[]; points?: string[] };
   solution: { title: string; paragraphs: string[] };

@@ -103,7 +103,7 @@ const content: ServiceContent = {
     { q: "Quels réseaux gérez-vous ?", a: "Principalement Instagram, Facebook et LinkedIn, ainsi que TikTok selon les projets. Nous vous conseillons de vous concentrer sur les réseaux où se trouvent réellement vos clients." },
   ],
   cta: { title: "Ne laissez plus *aucun* message sans réponse", text: "30 minutes pour faire le point sur vos réseaux et vos messages." },
-  relatedCases: ["akp-kustom", "solidas", "dessy-immo"],
+  relatedCases: ["volt-aqua", "akp-kustom", "solidas"],
 };
 
 export default content;

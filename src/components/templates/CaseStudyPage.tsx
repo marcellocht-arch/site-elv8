@@ -20,6 +20,7 @@ import { webPageLd } from "@/lib/seo";
 export function CaseStudyPage({ c }: { c: CaseStudyContent }) {
   const others = caseStudies.filter((x) => x.slug !== c.slug).map((x) => x.slug);
   const path = `/realisations/${c.slug}`;
+  const videos = c.videos.filter((v) => v.src);
 
   return (
     <>
@@ -33,9 +34,11 @@ export function CaseStudyPage({ c }: { c: CaseStudyContent }) {
         intro={c.hero.intro}
         cta={false}
         aside={
-          <div className="mx-auto w-[min(62vw,280px)] rotate-[4deg] lg:ml-auto lg:mr-6">
-            <VideoFrame title={c.videos[0]?.title ?? c.client} src={c.videos[0]?.src} poster={c.videos[0]?.poster} />
-          </div>
+          videos[0] ? (
+            <div className="mx-auto w-[min(62vw,280px)] rotate-[4deg] lg:ml-auto lg:mr-6">
+              <VideoFrame title={videos[0].title} src={videos[0].src} poster={videos[0].poster} />
+            </div>
+          ) : undefined
         }
       />
 
@@ -73,7 +76,7 @@ export function CaseStudyPage({ c }: { c: CaseStudyContent }) {
         </Reveal>
 
         {c.stats.length > 0 ? (
-          <Reveal stagger={0.08} as="dl" className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius-card)] bg-ivory/10 md:grid-cols-3 lg:grid-cols-5">
+          <Reveal stagger={0.08} as="dl" className={`mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius-card)] bg-ivory/10 ${c.stats.length > 2 ? "md:grid-cols-3 lg:grid-cols-5" : ""}`}>
             {c.stats.map((s) => (
               <div key={s.label} className="flex flex-col gap-4 bg-night p-5 md:p-6">
                 <dd className="font-display text-5xl leading-none text-copper-light md:text-6xl">
@@ -128,13 +131,15 @@ export function CaseStudyPage({ c }: { c: CaseStudyContent }) {
         </div>
       </section>
 
-      {/* Vidéos 9:16 */}
-      <section className="container-x py-20 md:py-28" aria-labelledby="videos">
-        <SectionHeader eyebrow="En images" title="Les *vidéos*" intro="Formats verticaux 9:16, pensés pour Instagram, TikTok, Facebook et YouTube Shorts." id="videos" />
-        <div className="mt-12">
-          <ParallaxVideos videos={c.videos} />
-        </div>
-      </section>
+      {/* Vidéos 9:16 (affichées seulement si au moins une vidéo est disponible) */}
+      {videos.length > 0 && (
+        <section className="container-x py-20 md:py-28" aria-labelledby="videos">
+          <SectionHeader eyebrow="En images" title="Les *vidéos*" intro="Formats verticaux 9:16, pensés pour Instagram, TikTok, Facebook et YouTube Shorts." id="videos" />
+          <div className="mt-12">
+            <ParallaxVideos videos={videos} />
+          </div>
+        </section>
+      )}
 
       {/* Résultats */}
       <section className="border-y border-ivory/10 py-20 md:py-28" aria-labelledby="resultats">

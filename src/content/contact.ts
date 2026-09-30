@@ -25,6 +25,6 @@ export const contact = {
       "Si nous pouvons vous aider, vous recevez une proposition claire. Sinon, on vous le dit.",
     ],
   },
-  hours: "[À COMPLÉTER : jours et heures de disponibilité]",
-  address: "Liège, Belgique — [À COMPLÉTER : adresse si vous recevez sur place]",
+  hours: "Disponible toute la journée. Le plus rapide : un message WhatsApp.",
+  address: "Liège, Belgique. Nous nous déplaçons chez vous, ou nous vous recevons à Liège.",
 };

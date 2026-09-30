@@ -62,7 +62,7 @@ const content: ZoneContent = {
     note: "Et l'ensemble de la province de Liège sur demande.",
   },
   faq: [
-    { q: "Êtes-vous vraiment basés à Liège ?", a: "Oui, ELV8co est une agence liégeoise. [À COMPLÉTER : adresse ou quartier, si vous souhaitez l'afficher]. Nous nous déplaçons chez nos clients pour les tournages et les rendez-vous." },
+    { q: "Êtes-vous vraiment basés à Liège ?", a: "Oui, ELV8co est une agence liégeoise. Nous nous déplaçons chez nos clients pour les tournages et les rendez-vous, et pouvons aussi vous recevoir à Liège." },
     { q: "Travaillez-vous avec des entreprises de la périphérie liégeoise ?", a: "Bien sûr : Seraing, Herstal, Ans, Chaudfontaine, Visé, Esneux et toutes les communes de l'agglomération. Une grande partie de nos clients se trouvent hors du centre-ville." },
     { q: "Pouvez-vous cibler une publicité sur un seul quartier de Liège ?", a: "Les plateformes publicitaires permettent de cibler un rayon autour d'une adresse. Nous définissons la zone en fonction de l'origine réelle de vos clients, avec une taille minimale imposée par les plateformes." },
     { q: "Pourquoi choisir une agence liégeoise plutôt qu'une agence bruxelloise ?", a: "Parce que nous connaissons votre marché, vos clients et votre ville. Et parce que la proximité permet de tourner souvent, ce qui est la clé d'un contenu régulier." },

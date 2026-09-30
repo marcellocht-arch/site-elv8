@@ -99,6 +99,13 @@ export const home = {
       "Pour les besoins qui dépassent nos trois piliers, nous pilotons des projets réalisés avec un réseau de freelances de confiance. Vous gardez un seul interlocuteur.",
   },
 
+  showreel: {
+    eyebrow: "En 30 secondes",
+    title: "Trois leviers, *une seule* question.",
+    text: "Personal branding, contenu vidéo et publicité : chacun fonctionne seul, mais c'est ensemble qu'ils ramènent des clients. La preuve en 30 secondes.",
+    video: { title: "Les trois leviers ELV8co en 30 secondes", src: "/videos/elv8co-04-les-trois-ensemble.mp4", poster: "/images/elv8co-04-les-trois-ensemble.jpg" },
+  },
+
   method: {
     eyebrow: "La méthode",
     title: "Simple, clair, *sans jargon*.",
@@ -122,7 +129,7 @@ export const home = {
     { q: "Qu'est-ce qui différencie ELV8co d'une agence de communication classique ?", a: "Nous ne vendons pas de la visibilité pour la visibilité. Nos trois services (personal branding, vidéo verticale et publicité) sont pensés pour fonctionner ensemble, avec un seul objectif : vous ramener des clients. Et nous parlons clairement, sans jargon." },
     { q: "Avec quels types d'entreprises travaillez-vous ?", a: "Avec des entreprises locales : commerces, artisans, courtiers, restaurants, agences immobilières, professions libérales et PME, principalement à Liège, Namur, Verviers et en province de Luxembourg." },
     { q: "Faut-il prendre les trois services ?", a: "Non. Chaque service fonctionne seul, et nous commençons souvent par celui qui aura le plus d'impact pour vous. Mais c'est leur combinaison qui produit les meilleurs résultats : confiance, régularité et portée se renforcent." },
-    { q: "Combien coûte un accompagnement ?", a: "Cela dépend de vos objectifs, du rythme de production et du budget publicitaire éventuel. Après l'appel de 30 minutes, nous vous envoyons une proposition claire, sans engagement. [À COMPLÉTER : indiquer une fourchette de prix si souhaité]." },
+    { q: "Combien coûte un accompagnement ?", a: "Cela dépend de vos objectifs, du rythme de production et du budget publicitaire éventuel. Nos accompagnements sont sur devis, à partir de 300 € par mois. Après l'appel de 30 minutes, nous vous envoyons une proposition claire, sans engagement." },
     { q: "Combien de temps faut-il pour voir des résultats ?", a: "La publicité peut produire des demandes dès les premières semaines. Le personal branding et le contenu vidéo construisent une réputation qui se renforce sur plusieurs mois. Nous faisons des points réguliers pour mesurer ce qui fonctionne." },
     { q: "Je n'aime pas être filmé. Est-ce rédhibitoire ?", a: "Pas du tout. La plupart de nos clients n'aimaient pas ça au départ. Nous préparons les tournages, vous guidons et ne gardons que le meilleur. Et certains formats, comme le motion design, ne nécessitent pas d'apparaître à l'écran." },
   ] satisfies Faq[],

@@ -41,7 +41,7 @@ export function Button({ href, children, variant = "primary", icon = true, magne
     </>
   );
 
-  const link = external ? (
+  const link = external ?? /^https?:\/\//.test(href) ? (
     <a href={href} className={cls} target="_blank" rel="noopener noreferrer" data-cursor={cursor}>
       {content}
     </a>
