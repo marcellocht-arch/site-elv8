@@ -9,14 +9,14 @@ const content: LegalContent = {
     ogTitle: "Confidentialité",
   },
   h1: "Politique de confidentialité",
-  updated: "[À COMPLÉTER : date de mise à jour]",
+  updated: "30 septembre 2026",
   intro:
     "La protection de vos données personnelles est importante pour nous. Cette politique explique quelles données nous collectons, pourquoi, combien de temps nous les conservons et quels sont vos droits, conformément au Règlement général sur la protection des données (RGPD, UE 2016/679) et à la loi belge du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel.",
   sections: [
     {
       title: "1. Responsable du traitement",
       list: [
-        "ELV8co — [À COMPLÉTER : dénomination légale et forme juridique]",
+        "ELV8co, dénomination commerciale de [À COMPLÉTER : dénomination légale et forme juridique]",
         "Adresse : [À COMPLÉTER : adresse du siège], Belgique",
         "Numéro d'entreprise (BCE) : [À COMPLÉTER : numéro BCE]",
         "Contact pour toute question relative à vos données : contact@elv8co.be",
@@ -56,7 +56,7 @@ const content: LegalContent = {
     {
       title: "5. Durée de conservation",
       list: [
-        "Demandes de contact sans suite : [À COMPLÉTER : durée, par exemple 3 ans] à compter du dernier échange.",
+        "Demandes de contact sans suite : 3 ans à compter du dernier échange.",
         "Données clients : pendant la durée de la relation contractuelle, puis pendant les délais légaux de conservation comptable et fiscale.",
         "Journaux techniques de l'hébergeur : durée limitée définie par l'hébergeur.",
       ],
@@ -74,7 +74,7 @@ const content: LegalContent = {
       paragraphs: [
         "Par défaut, ce site ne dépose aucun cookie de suivi, de mesure d'audience ou publicitaire.",
         "Le site utilise uniquement le stockage local de votre navigateur pour des fonctions strictement nécessaires : ne pas rejouer l'animation d'introduction à chaque page pendant votre visite, et mémoriser votre choix en matière de cookies le cas échéant. Ces informations ne quittent pas votre appareil.",
-        "Si un outil de mesure d'audience (par exemple Plausible ou Google Analytics) est activé à l'avenir, il ne sera chargé qu'après votre consentement explicite, recueilli via un bandeau. Vous pourrez modifier votre choix à tout moment via le lien « Gérer les cookies » en bas de page. [À COMPLÉTER : mettre à jour cette section si un outil est activé].",
+        "Si un outil de mesure d'audience (par exemple Plausible ou Google Analytics) est activé à l'avenir, il ne sera chargé qu'après votre consentement explicite, recueilli via un bandeau. Vous pourrez modifier votre choix à tout moment via le lien « Gérer les cookies » en bas de page.",
       ],
     },
     {

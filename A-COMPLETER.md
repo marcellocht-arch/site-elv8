@@ -52,7 +52,7 @@ Fichiers : `src/content/realisations/*.ts`. Vidéos : voir README, section « Aj
 
 <!-- DÉBUT LISTE AUTOMATIQUE (npm run todos) -->
 
-**76 emplacements** trouvés dans le code.
+**27 emplacements** trouvés dans le code.
 
 ### `src/app/a-propos/page.tsx`
 
@@ -60,7 +60,7 @@ Fichiers : `src/content/realisations/*.ts`. Vidéos : voir README, section « Aj
 
 ### `src/components/templates/CaseStudyPage.tsx`
 
-- [ ] ligne 69 — [À COMPLÉTER : services réalisés]
+- [ ] ligne 72 — [À COMPLÉTER : services réalisés]
 
 ### `src/components/ui/RichText.tsx`
 
@@ -71,101 +71,33 @@ Fichiers : `src/content/realisations/*.ts`. Vidéos : voir README, section « Aj
 
 - [ ] ligne 63 — [À COMPLÉTER : vidéo 9:16]
 
-### `src/content/a-propos.ts`
-
-- [ ] ligne 17 — [À COMPLÉTER : confirmer l'origine du nom]
-- [ ] ligne 27 — [À COMPLÉTER : histoire de la fondation, parcours du ou des fondateurs, date de création, équipe]
-- [ ] ligne 30 — [À COMPLÉTER : prénom et nom]
-- [ ] ligne 31 — [À COMPLÉTER : fonction]
-- [ ] ligne 32 — [À COMPLÉTER : courte présentation personnelle, parcours, pourquoi ELV8co]
-
-### `src/content/contact.ts`
-
-- [ ] ligne 28 — [À COMPLÉTER : jours et heures de disponibilité]
-- [ ] ligne 29 — [À COMPLÉTER : adresse si vous recevez sur place]
-
-### `src/content/home.ts`
-
-- [ ] ligne 125 — [À COMPLÉTER : indiquer une fourchette de prix si souhaité]
-
 ### `src/content/legal/confidentialite.ts`
 
-- [ ] ligne 12 — [À COMPLÉTER : date de mise à jour]
 - [ ] ligne 19 — [À COMPLÉTER : dénomination légale et forme juridique]
 - [ ] ligne 20 — [À COMPLÉTER : adresse du siège]
 - [ ] ligne 21 — [À COMPLÉTER : numéro BCE]
 - [ ] ligne 51 — [À COMPLÉTER : vérifier la dénomination exacte du prestataire]
-- [ ] ligne 59 — [À COMPLÉTER : durée, par exemple 3 ans]
-- [ ] ligne 77 — [À COMPLÉTER : mettre à jour cette section si un outil est activé]
 
 ### `src/content/legal/mentions-legales.ts`
 
-- [ ] ligne 12 — [À COMPLÉTER : date de mise à jour]
 - [ ] ligne 20 — [À COMPLÉTER : dénomination légale]
 - [ ] ligne 21 — [À COMPLÉTER : forme juridique (SRL, personne physique…)]
 - [ ] ligne 22 — [À COMPLÉTER : adresse complète]
 - [ ] ligne 23 — [À COMPLÉTER : numéro BCE]
 - [ ] ligne 24 — [À COMPLÉTER : numéro de TVA]
-- [ ] ligne 27 — [À COMPLÉTER : nom du responsable]
 - [ ] ligne 34 — [À COMPLÉTER : vérifier la dénomination et l'adresse exactes du prestataire one.com figurant sur votre contrat]
-- [ ] ligne 41 — [À COMPLÉTER : lien vers les conditions générales, le cas échéant]
-- [ ] ligne 48 — [À COMPLÉTER : confirmer l'accord écrit de chaque client]
-
-### `src/content/realisations/akp-kustom.ts`
-
-- [ ] ligne 32 — [À COMPLÉTER : situation de départ précise d'AKP Kustom (présence en ligne, nombre d'abonnés, canaux utilisés)]
-- [ ] ligne 36 — [À COMPLÉTER : objectif chiffré éventuel fixé avec le client]
-- [ ] ligne 50 — [À COMPLÉTER : ajouter le fichier vidéo]
-- [ ] ligne 51 — [À COMPLÉTER : confirmer et ajouter le fichier]
-- [ ] ligne 52 — [À COMPLÉTER : titre et fichier vidéo]
-- [ ] ligne 54 — [À COMPLÉTER : témoignage réel du client, avec son accord]
-- [ ] ligne 54 — [À COMPLÉTER : nom et fonction]
 
 ### `src/content/realisations/dessy-immo.ts`
 
 - [ ] ligne 8 — [À COMPLÉTER : ville]
-- [ ] ligne 21 — [À COMPLÉTER : résumé de la mission réalisée pour Dessy Immo]
-- [ ] ligne 26 — [À COMPLÉTER : présentation de Dessy Immo (localisation, équipe, spécialités) et situation de départ]
-- [ ] ligne 28 — [À COMPLÉTER : objectif de la mission (notoriété, prise de mandats, promotion de biens…)]
-- [ ] ligne 30 — [À COMPLÉTER : action 1]
-- [ ] ligne 30 — [À COMPLÉTER : description de ce qui a été réalisé (personal branding, vidéos de biens, publicité…)]
-- [ ] ligne 31 — [À COMPLÉTER : action 2]
-- [ ] ligne 31 — [À COMPLÉTER : description]
-- [ ] ligne 34 — [À COMPLÉTER : résultats observés, uniquement s'ils sont vérifiables. Aucun chiffre n'est connu à ce jour.]
-- [ ] ligne 37 — [À COMPLÉTER : titre et fichier vidéo]
-- [ ] ligne 38 — [À COMPLÉTER : titre et fichier vidéo]
-- [ ] ligne 39 — [À COMPLÉTER : titre et fichier vidéo]
-- [ ] ligne 41 — [À COMPLÉTER : témoignage réel du client, avec son accord]
-- [ ] ligne 41 — [À COMPLÉTER : nom et fonction]
 
 ### `src/content/realisations/solidas.ts`
 
 - [ ] ligne 8 — [À COMPLÉTER : ville]
-- [ ] ligne 26 — [À COMPLÉTER : présentation de Solidas (localisation, ancienneté, type de clientèle) et situation de départ]
-- [ ] ligne 30 — [À COMPLÉTER : objectif précis fixé avec Solidas]
-- [ ] ligne 35 — [À COMPLÉTER : canaux de diffusion utilisés (réseaux sociaux, site, envoi aux clients…)]
-- [ ] ligne 40 — [À COMPLÉTER : résultats observés (retours clients, demandes, statistiques), uniquement s'ils sont vérifiables]
-- [ ] ligne 44 — [À COMPLÉTER : ajouter le fichier vidéo]
-- [ ] ligne 45 — [À COMPLÉTER : titre et fichier vidéo]
-- [ ] ligne 46 — [À COMPLÉTER : titre et fichier vidéo]
-- [ ] ligne 48 — [À COMPLÉTER : témoignage réel du client, avec son accord]
-- [ ] ligne 48 — [À COMPLÉTER : nom et fonction]
 
-### `src/content/services/contenu-video.ts`
+### `src/content/realisations/volt-aqua.ts`
 
-- [ ] ligne 99 — [À COMPLÉTER : conditions de cession des droits]
-
-### `src/content/services/creation-site-web.ts`
-
-- [ ] ligne 100 — [À COMPLÉTER : délai indicatif]
-
-### `src/content/services/personal-branding.ts`
-
-- [ ] ligne 99 — [À COMPLÉTER : fourchette de prix ou mention « sur devis »]
-
-### `src/content/services/publicite-meta-linkedin.ts`
-
-- [ ] ligne 95 — [À COMPLÉTER : honoraires de gestion]
+- [ ] ligne 8 — [À COMPLÉTER : ville]
 
 ### `src/content/site.ts`
 
@@ -179,14 +111,6 @@ Fichiers : `src/content/realisations/*.ts`. Vidéos : voir README, section « Aj
 ### `src/content/types.ts`
 
 - [ ] ligne 6 — [À COMPLÉTER …]
-
-### `src/content/zones/liege.ts`
-
-- [ ] ligne 65 — [À COMPLÉTER : adresse ou quartier, si vous souhaitez l'afficher]
-
-### `src/content/zones/verviers.ts`
-
-- [ ] ligne 66 — [À COMPLÉTER : confirmer la prise en charge des contenus en allemand]
 
 ### `src/lib/seo.ts`
 

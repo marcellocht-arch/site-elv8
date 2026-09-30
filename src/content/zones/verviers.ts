@@ -63,7 +63,7 @@ const content: ZoneContent = {
   faq: [
     { q: "Intervenez-vous dans toute la vallée de la Vesdre ?", a: "Oui, de Trooz à Verviers et jusqu'à Limbourg et Baelen, ainsi que sur le plateau de Herve et dans la région de Spa et des Fagnes." },
     { q: "Pouvez-vous nous aider à relancer notre activité après une fermeture ?", a: "C'est un cas où la publicité locale est particulièrement utile : informer rapidement les habitants de votre réouverture, de votre nouvelle adresse ou de vos nouveaux services, puis entretenir cette visibilité avec du contenu régulier." },
-    { q: "Pouvez-vous créer des publicités en allemand ?", a: "Les plateformes permettent de cibler selon la langue. Pour les textes en allemand, nous travaillons avec un traducteur ou avec vos propres équipes : [À COMPLÉTER : confirmer la prise en charge des contenus en allemand]." },
+    { q: "Pouvez-vous créer des publicités en allemand ?", a: "Les plateformes permettent de cibler selon la langue. Pour des contenus en allemand, parlons-en lors de l'appel : nous trouvons ensemble la solution adaptée à votre projet." },
     { q: "Quel budget publicitaire pour une entreprise verviétoise ?", a: "Les zones de la région sont moins saturées que les grandes villes, ce qui peut rendre les campagnes plus abordables. Nous commençons par un budget test pour mesurer ce qui fonctionne avant d'investir davantage." },
   ],
   cta: { title: "Une entreprise verviétoise à *faire connaître* ?", text: "Un appel de 30 minutes pour en parler." },

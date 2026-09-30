@@ -14,7 +14,7 @@ export const about = {
     eyebrow: "À propos",
     h1: "Nous rendons visibles *ceux qui font* bien leur métier",
     intro:
-      "ELV8co est une agence liégeoise qui aide les entreprises locales à devenir visibles et à attirer des clients. ELV8, comme « elevate » : élever votre présence, votre image et votre activité. [À COMPLÉTER : confirmer l'origine du nom]",
+      "ELV8co est une agence liégeoise qui aide les entreprises locales à devenir visibles et à attirer des clients. ELV8, comme « elevate » : élever votre présence, votre image et votre activité.",
   },
 
   manifesto:
@@ -24,12 +24,13 @@ export const about = {
     title: "L'agence",
     paragraphs: [
       "ELV8co est basée à Liège et travaille avec les entreprises de Liège, Namur, Verviers et de la province de Luxembourg. Nous accompagnons des commerces, des artisans, des courtiers, des restaurants, des agences immobilières et des PME.",
-      "[À COMPLÉTER : histoire de la fondation, parcours du ou des fondateurs, date de création, équipe].",
+      "ELV8co est née en 2026. Son fondateur, Marcel Locht, a toujours voulu entreprendre, sans savoir tout de suite dans quel domaine : curieux, il aimait toucher à tout. Pendant ses études, il a commencé à aider gratuitement des commerçants de son quartier et des amis indépendants à se rendre visibles : quelques vidéos, une fiche Google mieux tenue, une première publicité.",
+      "Il y a pris un vrai plaisir, et les résultats ont suivi. ELV8co est la suite logique : faire de cette envie d'aider les entreprises locales un vrai métier, avec la même proximité qu'au premier jour.",
     ],
     founder: {
-      name: "[À COMPLÉTER : prénom et nom]",
-      role: "[À COMPLÉTER : fonction]",
-      bio: "[À COMPLÉTER : courte présentation personnelle, parcours, pourquoi ELV8co].",
+      name: "Marcel Locht",
+      role: "Fondateur",
+      bio: "« J'ai toujours voulu entreprendre, et j'aime toucher à tout : la vidéo, la publicité, le web, le design. En aidant les commerçants de mon quartier, j'ai compris ce qui me plaisait vraiment : voir une entreprise locale gagner des clients grâce à ce qu'on a construit ensemble. »",
     },
   },
 

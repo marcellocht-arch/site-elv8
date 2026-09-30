@@ -9,14 +9,14 @@ const content: LegalContent = {
     ogTitle: "Mentions légales",
   },
   h1: "Mentions légales",
-  updated: "[À COMPLÉTER : date de mise à jour]",
+  updated: "30 septembre 2026",
   intro:
     "Conformément au Code de droit économique belge (notamment ses articles III.74 et XII.7), voici les informations relatives à l'éditeur et à l'hébergeur du site elv8co.be.",
   sections: [
     {
       title: "Éditeur du site",
       list: [
-        "Nom commercial : ELV8co",
+        "Nom commercial : ELV8co, dénomination commerciale de la société ci-dessous",
         "Dénomination sociale : [À COMPLÉTER : dénomination légale]",
         "Forme juridique : [À COMPLÉTER : forme juridique (SRL, personne physique…)]",
         "Siège social : [À COMPLÉTER : adresse complète], Belgique",
@@ -24,7 +24,7 @@ const content: LegalContent = {
         "Numéro de TVA : [À COMPLÉTER : numéro de TVA]",
         "E-mail : contact@elv8co.be",
         "Téléphone : +32 470 35 43 90",
-        "Responsable de la publication : [À COMPLÉTER : nom du responsable]",
+        "Responsable de la publication : Marcel Locht",
       ],
     },
     {
@@ -38,14 +38,14 @@ const content: LegalContent = {
       title: "Activité",
       paragraphs: [
         "ELV8co est une agence de visibilité locale proposant des services de personal branding, de production de contenu vidéo, de gestion de publicité en ligne, ainsi que, via un réseau de freelances, de création de sites web et de community management.",
-        "Les prix et conditions des prestations font l'objet d'une proposition écrite personnalisée. [À COMPLÉTER : lien vers les conditions générales, le cas échéant].",
+        "Les prix et conditions des prestations font l'objet d'une proposition écrite personnalisée.",
       ],
     },
     {
       title: "Propriété intellectuelle",
       paragraphs: [
         "L'ensemble des éléments du site (textes, logo, graphismes, vidéos, photographies, code) est protégé par le droit d'auteur et le droit des marques. Toute reproduction, représentation ou adaptation, totale ou partielle, sans autorisation écrite préalable d'ELV8co est interdite.",
-        "Les vidéos et visuels présentés dans les études de cas sont reproduits avec l'accord des clients concernés. [À COMPLÉTER : confirmer l'accord écrit de chaque client]. Les marques citées appartiennent à leurs propriétaires respectifs.",
+        "Les vidéos et visuels présentés dans les études de cas sont reproduits avec l'accord des clients concernés. Les marques citées appartiennent à leurs propriétaires respectifs.",
       ],
     },
     {

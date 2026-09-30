@@ -23,6 +23,7 @@ const content: ServiceContent = {
     intro:
       "Vos clients n'achètent pas seulement un service. Ils choisissent une personne. Nous vous aidons à montrer qui vous êtes, ce que vous savez faire et pourquoi on peut vous faire confiance, avant même le premier appel.",
   },
+  video: { title: "Le personal branding en 30 secondes", src: "/videos/elv8co-01-personal-branding.mp4", poster: "/images/elv8co-01-personal-branding.jpg" },
   signature: "branding",
   problem: {
     title: "Vous êtes excellent dans votre métier. *Mais personne ne le voit.*",
@@ -96,7 +97,7 @@ const content: ServiceContent = {
     { q: "Faut-il être présent sur tous les réseaux sociaux ?", a: "Non. Nous choisissons les canaux où se trouvent vos clients. Pour un dirigeant qui vend à d'autres entreprises, LinkedIn est souvent prioritaire. Pour un commerce ou un restaurant, Instagram et Facebook comptent davantage. Mieux vaut un ou deux canaux bien tenus que cinq abandonnés." },
     { q: "Le personal branding, c'est seulement pour les grandes entreprises ?", a: "C'est l'inverse. Plus votre entreprise est petite et locale, plus la personne derrière compte. Vos clients veulent savoir à qui ils confient leur maison, leur assurance ou leur événement." },
     { q: "Quand verrai-je des résultats ?", a: "Les premiers retours (messages, commentaires, prospects qui mentionnent vos contenus) arrivent souvent dans les premières semaines de publication régulière. Une vraie réputation se construit sur plusieurs mois. C'est pour cela que nous travaillons dans la durée." },
-    { q: "Combien coûte un accompagnement en personal branding ?", a: "Le budget dépend de votre point de départ et du rythme souhaité. Nous vous proposons une offre claire après l'appel de 30 minutes, sans engagement. Tarifs indicatifs : [À COMPLÉTER : fourchette de prix ou mention « sur devis »]." },
+    { q: "Combien coûte un accompagnement en personal branding ?", a: "Le budget dépend de votre point de départ et du rythme souhaité. Nous vous proposons une offre claire après l'appel de 30 minutes, sans engagement. Nos accompagnements sont sur devis, à partir de 300 € par mois." },
   ],
   cta: { title: "Et si on commençait par *vous* ?", text: "Un appel de 30 minutes pour voir comment votre expertise peut devenir visible." },
   relatedCases: ["solidas", "dessy-immo", "akp-kustom"],

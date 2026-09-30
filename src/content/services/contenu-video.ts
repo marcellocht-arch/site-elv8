@@ -23,6 +23,7 @@ const content: ServiceContent = {
     intro:
       "Reels, TikTok, Shorts, stories : la vidéo verticale est devenue le premier endroit où l'on découvre une entreprise locale. Nous la tournons, la montons et la publions pour vous, chaque semaine, avec un seul objectif : que l'on pense à vous au bon moment.",
   },
+  video: { title: "Le contenu vidéo en 30 secondes", src: "/videos/elv8co-02-contenu-video.mp4", poster: "/images/elv8co-02-contenu-video.jpg" },
   signature: "video",
   problem: {
     title: "Publier une fois par mois, *c'est disparaître* le reste du temps",
@@ -96,10 +97,10 @@ const content: ServiceContent = {
     { q: "Dois-je forcément apparaître dans les vidéos ?", a: "Non, même si c'est souvent ce qui fonctionne le mieux. Certaines vidéos montrent vos produits, vos réalisations, votre équipe ou utilisent le motion design. Nous trouvons l'équilibre qui vous convient." },
     { q: "Sur quels réseaux publiez-vous les vidéos ?", a: "Instagram (Reels), Facebook, TikTok, YouTube Shorts et LinkedIn selon votre cible. Le format vertical est commun à toutes ces plateformes : une même vidéo peut être déclinée, avec une légende adaptée à chacune." },
     { q: "Qu'est-ce que le motion design et quand l'utiliser ?", a: "Ce sont des vidéos animées : textes, pictogrammes et illustrations en mouvement. C'est idéal pour expliquer un sujet abstrait ou une démarche, comme nous l'avons fait pour Solidas avec des vidéos pédagogiques sur la déclaration d'un sinistre." },
-    { q: "Qui possède les vidéos ?", a: "Vous. Les vidéos produites pour votre entreprise vous appartiennent et vous pouvez les réutiliser sur votre site, en publicité ou en magasin. Les conditions précises sont reprises dans notre proposition : [À COMPLÉTER : conditions de cession des droits]." },
+    { q: "Qui possède les vidéos ?", a: "Vous. Une fois la prestation réglée, les vidéos produites pour votre entreprise vous appartiennent : vous pouvez les réutiliser sur votre site, en publicité ou en magasin. Les conditions précises figurent dans notre proposition." },
   ],
   cta: { title: "Votre prochaine vidéo *commence* par un appel", text: "30 minutes pour trouver les sujets qui intéressent vraiment vos clients." },
-  relatedCases: ["akp-kustom", "solidas", "dessy-immo"],
+  relatedCases: ["akp-kustom", "solidas", "volt-aqua"],
 };
 
 export default content;

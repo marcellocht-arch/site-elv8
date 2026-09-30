@@ -12,6 +12,7 @@ import { Reveal } from "@/components/motion/Reveal";
 import { SplitReveal } from "@/components/motion/SplitReveal";
 import { TiltCard } from "@/components/motion/TiltCard";
 import { PillarBadge } from "@/components/signatures/PillarBadge";
+import { VideoFrame } from "@/components/ui/VideoFrame";
 import { ServiceSignature } from "@/components/signatures/ServiceSignature";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Check, serviceIcons } from "@/components/ui/Icons";
@@ -30,7 +31,15 @@ export function ServicePage({ s }: { s: ServiceContent }) {
         eyebrow={s.hero.eyebrow}
         title={s.hero.h1}
         intro={s.hero.intro}
-        aside={<PillarBadge word={s.pillar ?? "Réseau"} Icon={Icon} />}
+        aside={
+          s.video ? (
+            <div className="mx-auto w-[min(62vw,280px)] rotate-[4deg] lg:ml-auto lg:mr-6">
+              <VideoFrame title={s.video.title} src={s.video.src} poster={s.video.poster} />
+            </div>
+          ) : (
+            <PillarBadge word={s.pillar ?? "Réseau"} Icon={Icon} />
+          )
+        }
         secondary={{ label: "Voir les réalisations", href: "/realisations" }}
       />
 

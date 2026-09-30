@@ -19,7 +19,7 @@ export const site = {
     phoneHref: "tel:+32470354390",
     whatsapp: "https://wa.me/32470354390",
     /** Lien de prise de rendez-vous (Calendly, Cal.com…). Vide = renvoi vers /contact. */
-    bookingUrl: "",
+    bookingUrl: "https://wa.me/32470354390?text=Bonjour%20ELV8co%2C%20j%27aimerais%20r%C3%A9server%20un%20appel%20de%2030%20minutes.",
   },
 
   /** Adresse et données légales : à compléter (voir A-COMPLETER.md). */

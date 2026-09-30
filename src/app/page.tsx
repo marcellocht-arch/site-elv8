@@ -13,6 +13,8 @@ import { ZonesMap } from "@/components/sections/ZonesMap";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { FaqList } from "@/components/ui/FaqList";
 import { Button } from "@/components/ui/Button";
+import { VideoFrame } from "@/components/ui/VideoFrame";
+import { bookingHref } from "@/content/site";
 import { Counter } from "@/components/motion/Counter";
 import { Reveal } from "@/components/motion/Reveal";
 import { TiltCard } from "@/components/motion/TiltCard";
@@ -28,6 +30,23 @@ export default function HomePage() {
       <TwoShops />
       <HorizontalServices />
       <Synergy />
+
+      {/* Vidéo : les trois leviers en 30 secondes */}
+      <section className="container-x py-24 md:py-32" aria-labelledby="showreel-title">
+        <div className="grid items-center gap-14 lg:grid-cols-[1.2fr_0.8fr] lg:gap-20">
+          <div>
+            <SectionHeader eyebrow={home.showreel.eyebrow} title={home.showreel.title} intro={home.showreel.text} id="showreel-title" />
+            <div className="mt-10">
+              <Button href={bookingHref} size="lg">
+                Réserver un appel de 30 min
+              </Button>
+            </div>
+          </div>
+          <Reveal className="mx-auto w-[min(70vw,320px)] -rotate-[3deg]">
+            <VideoFrame title={home.showreel.video.title} src={home.showreel.video.src} poster={home.showreel.video.poster} />
+          </Reveal>
+        </div>
+      </section>
 
       {/* Résultats en chiffres */}
       <section className="relative overflow-hidden border-y border-ivory/10 bg-deep py-24 md:py-32" aria-labelledby="resultats-title">

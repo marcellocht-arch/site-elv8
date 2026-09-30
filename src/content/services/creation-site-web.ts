@@ -97,13 +97,13 @@ const content: ServiceContent = {
   },
   faq: [
     { q: "Qui réalise concrètement mon site ?", a: "Le développement et, selon les projets, le design sont réalisés par des freelances spécialisés de notre réseau. ELV8co pilote l'ensemble du projet, rédige ou structure les contenus et reste votre interlocuteur unique." },
-    { q: "Combien de temps faut-il pour créer un site ?", a: "Cela dépend du nombre de pages, des fonctionnalités et de la disponibilité de vos contenus (textes, photos). Nous fixons un planning précis dans le cahier des charges : [À COMPLÉTER : délai indicatif]." },
+    { q: "Combien de temps faut-il pour créer un site ?", a: "Cela dépend du nombre de pages, des fonctionnalités et de la disponibilité de vos contenus (textes, photos). Comptez de 2 jours pour un site vitrine simple à 2 semaines pour un projet plus complet. Nous fixons un planning précis dès le départ." },
     { q: "Pourrai-je modifier mon site moi-même ?", a: "Oui, nous prévoyons une solution adaptée à votre niveau pour que vous puissiez modifier vos textes, vos photos et vos informations pratiques sans dépendre de nous." },
     { q: "Mon site sera-t-il bien référencé sur Google ?", a: "Nous mettons en place toutes les bases techniques et éditoriales du référencement local. Le positionnement dépend ensuite aussi de la concurrence, de l'ancienneté du site et de votre fiche Google Business Profile, que nous pouvons vous aider à optimiser." },
     { q: "Pouvez-vous reprendre mon site existant ?", a: "Oui. Nous commençons par analyser ce qui existe. Parfois une amélioration suffit ; parfois une refonte est plus rentable. Nous vous le dirons franchement." },
   ],
   cta: { title: "Un site qui *travaille* pour vous", text: "30 minutes pour faire le point sur votre site actuel ou votre futur projet." },
-  relatedCases: ["dessy-immo", "solidas", "akp-kustom"],
+  relatedCases: ["volt-aqua", "dessy-immo", "akp-kustom"],
 };
 
 export default content;
