@@ -16,9 +16,8 @@ const content: LegalContent = {
     {
       title: "1. Responsable du traitement",
       list: [
-        "ELV8co, dénomination commerciale de [À COMPLÉTER : dénomination légale et forme juridique]",
-        "Adresse : [À COMPLÉTER : adresse du siège], Belgique",
-        "Numéro d'entreprise (BCE) : [À COMPLÉTER : numéro BCE]",
+        "ELV8co, représentée par Marcel Locht",
+        "Liège, Belgique",
         "Contact pour toute question relative à vos données : contact@elv8co.be",
       ],
     },
@@ -48,7 +47,7 @@ const content: LegalContent = {
         "Vos données sont destinées exclusivement à ELV8co. Elles transitent par les prestataires techniques suivants, liés par des obligations de confidentialité et de sécurité :",
       ],
       list: [
-        "one.com : hébergement de la messagerie électronique (Union européenne). [À COMPLÉTER : vérifier la dénomination exacte du prestataire].",
+        "one.com : hébergement de la messagerie électronique (Union européenne).",
         "Vercel Inc. : hébergement du site. Le formulaire est traité par les serveurs de Vercel ; les transferts éventuels vers les États-Unis sont encadrés par le cadre de protection des données UE–États-Unis (Data Privacy Framework) et/ou les clauses contractuelles types de la Commission européenne.",
         "Le cas échéant, les freelances de notre réseau chargés d'un projet vous concernant, uniquement pour les données nécessaires à ce projet et sous obligation de confidentialité.",
       ],

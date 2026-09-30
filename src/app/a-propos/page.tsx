@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { about } from "@/content/a-propos";
 import { buildMetadata, webPageLd } from "@/lib/seo";
@@ -38,9 +39,14 @@ export default function Page() {
           </div>
           <Reveal>
             <figure className="card-surface overflow-hidden">
-              <div className="relative grid aspect-[4/5] place-items-center bg-gradient-to-br from-surface to-deep">
-                <div className="halo halo--soft inset-[10%]" aria-hidden />
-                <mark className="todo relative">[À COMPLÉTER : photo du fondateur]</mark>
+              <div className="relative aspect-[4/5] bg-gradient-to-br from-surface to-deep">
+                <Image
+                  src="/images/marcel-locht.jpg"
+                  alt="Marcel Locht, fondateur d'ELV8co"
+                  fill
+                  sizes="(min-width: 1024px) 40vw, 100vw"
+                  className="object-cover object-top"
+                />
               </div>
               <figcaption className="p-6">
                 <p className="font-display text-3xl">

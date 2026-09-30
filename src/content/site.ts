@@ -22,14 +22,14 @@ export const site = {
     bookingUrl: "https://wa.me/32470354390?text=Bonjour%20ELV8co%2C%20j%27aimerais%20r%C3%A9server%20un%20appel%20de%2030%20minutes.",
   },
 
-  /** Adresse et données légales : à compléter (voir A-COMPLETER.md). */
+  /** Adresse et données légales (laisser vide ce qui ne doit pas être publié). */
   legal: {
-    companyName: "[À COMPLÉTER : dénomination légale]",
-    legalForm: "[À COMPLÉTER : forme juridique]",
-    bce: "[À COMPLÉTER : numéro BCE]",
-    vat: "[À COMPLÉTER : numéro de TVA]",
-    street: "[À COMPLÉTER : rue et numéro]",
-    postalCode: "[À COMPLÉTER : code postal]",
+    companyName: "",
+    legalForm: "",
+    bce: "",
+    vat: "",
+    street: "",
+    postalCode: "",
     city: "Liège",
     country: "BE",
   },

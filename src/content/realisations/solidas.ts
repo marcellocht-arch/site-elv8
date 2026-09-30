@@ -5,7 +5,7 @@ const content: CaseStudyContent = {
   slug: "solidas",
   client: "Solidas",
   sector: "Courtier en assurances",
-  location: "[À COMPLÉTER : ville]",
+  location: "Herve",
   services: ["contenu-video", "personal-branding", "publicite-meta-linkedin"],
   seo: {
     title: "Solidas : vidéos et publicité pour un courtier | ELV8co",
@@ -15,7 +15,7 @@ const content: CaseStudyContent = {
     ogTitle: "Solidas · 1 contrat par mois",
   },
   hero: {
-    eyebrow: "Étude de cas · Courtage en assurances",
+    eyebrow: "Étude de cas · Courtage en assurances · Herve",
     h1: "Solidas : rendre l'assurance *claire*, et la faire *choisir*",
     intro:
       "L'assurance est un métier de confiance, mais aussi un sujet que la plupart des gens trouvent compliqué. Pour Solidas, nous avons combiné motion design pédagogique, vidéos de personal branding au nom de l'entreprise et un tunnel publicitaire dédié à l'assurance obsèques.",

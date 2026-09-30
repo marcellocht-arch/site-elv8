@@ -5,7 +5,7 @@ const content: CaseStudyContent = {
   slug: "dessy-immo",
   client: "Dessy Immo",
   sector: "Immobilier",
-  location: "[À COMPLÉTER : ville]",
+  location: "Liège",
   services: ["publicite-meta-linkedin"],
   seo: {
     title: "Dessy Immo : audit GEO et ciblage Meta | ELV8co",
@@ -15,10 +15,10 @@ const content: CaseStudyContent = {
     ogTitle: "Dessy Immo · audit",
   },
   hero: {
-    eyebrow: "Étude de cas · Immobilier",
+    eyebrow: "Étude de cas · Immobilier · Liège",
     h1: "Dessy Immo : un audit pour viser *juste*",
     intro:
-      "Dans l'immobilier, la visibilité se joue bien avant la mise en vente : le jour où un propriétaire décide de vendre, il contacte l'agent auquel il pense en premier. Pour Dessy Immo, nous avons réalisé un audit de visibilité GEO et de ciblage publicitaire Meta.",
+      "Dans l'immobilier, la visibilité se joue bien avant la mise en vente : le jour où un propriétaire décide de vendre, il contacte l'agent auquel il pense en premier. Pour Dessy Immo, nous avons réalisé un audit GEO (visibilité dans les moteurs de recherche IA) et de ciblage publicitaire Meta.",
   },
   stats: [],
   context: [
@@ -27,7 +27,7 @@ const content: CaseStudyContent = {
   ],
   objective: ["Obtenir un diagnostic clair de la visibilité de l'agence et des priorités concrètes pour mieux cibler ses publicités sur Facebook et Instagram."],
   actions: [
-    { title: "Audit GEO", text: "Analyse de la visibilité de l'agence dans les recherches locales et dans les réponses des moteurs et assistants basés sur l'intelligence artificielle, avec les points à corriger en priorité." },
+    { title: "Audit GEO", text: "Le GEO, c'est le référencement pour les moteurs de recherche à base d'intelligence artificielle (ChatGPT, Gemini, les réponses IA de Google…). Nous avons analysé comment l'agence y apparaît, et ce qu'il faut corriger pour qu'elle soit citée quand on cherche une agence immobilière." },
     { title: "Audit du ciblage Meta", text: "Revue des audiences, des zones géographiques et des annonces utilisées sur Facebook et Instagram, pour concentrer le budget sur les propriétaires et acheteurs réellement concernés." },
     { title: "Recommandations", text: "Un plan d'action clair et priorisé, que l'agence peut appliquer elle-même ou avec nous." },
   ],

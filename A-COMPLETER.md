@@ -52,11 +52,7 @@ Fichiers : `src/content/realisations/*.ts`. Vidéos : voir README, section « Aj
 
 <!-- DÉBUT LISTE AUTOMATIQUE (npm run todos) -->
 
-**27 emplacements** trouvés dans le code.
-
-### `src/app/a-propos/page.tsx`
-
-- [ ] ligne 43 — [À COMPLÉTER : photo du fondateur]
+**7 emplacements** trouvés dans le code.
 
 ### `src/components/templates/CaseStudyPage.tsx`
 
@@ -70,43 +66,6 @@ Fichiers : `src/content/realisations/*.ts`. Vidéos : voir README, section « Aj
 ### `src/components/ui/VideoFrame.tsx`
 
 - [ ] ligne 63 — [À COMPLÉTER : vidéo 9:16]
-
-### `src/content/legal/confidentialite.ts`
-
-- [ ] ligne 19 — [À COMPLÉTER : dénomination légale et forme juridique]
-- [ ] ligne 20 — [À COMPLÉTER : adresse du siège]
-- [ ] ligne 21 — [À COMPLÉTER : numéro BCE]
-- [ ] ligne 51 — [À COMPLÉTER : vérifier la dénomination exacte du prestataire]
-
-### `src/content/legal/mentions-legales.ts`
-
-- [ ] ligne 20 — [À COMPLÉTER : dénomination légale]
-- [ ] ligne 21 — [À COMPLÉTER : forme juridique (SRL, personne physique…)]
-- [ ] ligne 22 — [À COMPLÉTER : adresse complète]
-- [ ] ligne 23 — [À COMPLÉTER : numéro BCE]
-- [ ] ligne 24 — [À COMPLÉTER : numéro de TVA]
-- [ ] ligne 34 — [À COMPLÉTER : vérifier la dénomination et l'adresse exactes du prestataire one.com figurant sur votre contrat]
-
-### `src/content/realisations/dessy-immo.ts`
-
-- [ ] ligne 8 — [À COMPLÉTER : ville]
-
-### `src/content/realisations/solidas.ts`
-
-- [ ] ligne 8 — [À COMPLÉTER : ville]
-
-### `src/content/realisations/volt-aqua.ts`
-
-- [ ] ligne 8 — [À COMPLÉTER : ville]
-
-### `src/content/site.ts`
-
-- [ ] ligne 27 — [À COMPLÉTER : dénomination légale]
-- [ ] ligne 28 — [À COMPLÉTER : forme juridique]
-- [ ] ligne 29 — [À COMPLÉTER : numéro BCE]
-- [ ] ligne 30 — [À COMPLÉTER : numéro de TVA]
-- [ ] ligne 31 — [À COMPLÉTER : rue et numéro]
-- [ ] ligne 32 — [À COMPLÉTER : code postal]
 
 ### `src/content/types.ts`
 

@@ -5,7 +5,7 @@ const content: CaseStudyContent = {
   slug: "volt-aqua",
   client: "Volt'aqua",
   sector: "Cordiste, parcs et jardins",
-  location: "[À COMPLÉTER : ville]",
+  location: "Liège",
   services: ["creation-site-web", "contenu-video", "publicite-meta-linkedin"],
   seo: {
     title: "Volt'aqua : site vitrine, contenu et pub | ELV8co",
@@ -15,7 +15,7 @@ const content: CaseStudyContent = {
     ogTitle: "Volt'aqua · visibilité complète",
   },
   hero: {
-    eyebrow: "Étude de cas · Cordiste, parcs et jardins",
+    eyebrow: "Étude de cas · Cordiste, parcs et jardins · Liège",
     h1: "Volt'aqua : une présence *complète*, du site aux cartes de visite",
     intro:
       "Volt'aqua réalise des travaux de cordiste ainsi que l'entretien de parcs et jardins. Un savoir-faire concret et impressionnant à montrer. Nous avons construit toute sa présence : site vitrine, contenus, publicité, fiche Google et cartes de visite.",

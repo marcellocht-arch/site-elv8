@@ -16,12 +16,8 @@ const content: LegalContent = {
     {
       title: "Éditeur du site",
       list: [
-        "Nom commercial : ELV8co, dénomination commerciale de la société ci-dessous",
-        "Dénomination sociale : [À COMPLÉTER : dénomination légale]",
-        "Forme juridique : [À COMPLÉTER : forme juridique (SRL, personne physique…)]",
-        "Siège social : [À COMPLÉTER : adresse complète], Belgique",
-        "Numéro d'entreprise (BCE) : [À COMPLÉTER : numéro BCE]",
-        "Numéro de TVA : [À COMPLÉTER : numéro de TVA]",
+        "Nom commercial : ELV8co",
+        "Localisation : Liège, Belgique",
         "E-mail : contact@elv8co.be",
         "Téléphone : +32 470 35 43 90",
         "Responsable de la publication : Marcel Locht",
@@ -31,7 +27,7 @@ const content: LegalContent = {
       title: "Hébergement",
       paragraphs: [
         "Le site est hébergé par Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis — vercel.com.",
-        "Le nom de domaine et la messagerie électronique sont gérés par one.com. [À COMPLÉTER : vérifier la dénomination et l'adresse exactes du prestataire one.com figurant sur votre contrat].",
+        "Le nom de domaine et la messagerie électronique sont gérés par one.com.",
       ],
     },
     {
