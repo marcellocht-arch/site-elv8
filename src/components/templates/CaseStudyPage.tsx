@@ -76,7 +76,7 @@ export function CaseStudyPage({ c }: { c: CaseStudyContent }) {
         </Reveal>
 
         {c.stats.length > 0 ? (
-          <Reveal stagger={0.08} as="dl" className={`mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius-card)] bg-ivory/10 ${c.stats.length > 2 ? "md:grid-cols-3 lg:grid-cols-5" : ""}`}>
+          <Reveal stagger={0.08} as="dl" className={`mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius-card)] bg-ivory/10 ${c.stats.length === 4 ? "md:grid-cols-4" : c.stats.length > 2 ? "md:grid-cols-3 lg:grid-cols-5" : ""}`}>
             {c.stats.map((s) => (
               <div key={s.label} className="flex flex-col gap-4 bg-night p-5 md:p-6">
                 <dd className="font-display text-5xl leading-none text-copper-light md:text-6xl">

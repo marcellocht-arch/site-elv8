@@ -109,7 +109,7 @@ function Video() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Publicité : la courbe 20 € → 780 € se dessine (cas réel AKP Kustom)  */
+/* Publicité : la courbe 1 € → 39 € se dessine (cas réel AKP Kustom)    */
 /* ------------------------------------------------------------------ */
 function Ads() {
   const ref = useRef<HTMLDivElement>(null);
@@ -133,12 +133,12 @@ function Ads() {
         <div>
           <p className="eyebrow">Cas réel · AKP Kustom</p>
           <p className="mt-2 font-display text-3xl md:text-5xl">
-            20 € <span className="text-grey">→</span> <span className="text-copper-light">780 €</span>
+            1 € <span className="text-grey">→</span> <span className="text-copper-light">39 €</span>
           </p>
         </div>
         <p className="font-display text-5xl text-copper-light md:text-7xl">39×</p>
       </div>
-      <svg viewBox="0 0 600 220" className="mt-6 h-auto w-full" role="img" aria-label="Courbe illustrant 20 euros investis transformés en 780 euros de chiffre d'affaires">
+      <svg viewBox="0 0 600 220" className="mt-6 h-auto w-full" role="img" aria-label="Courbe illustrant chaque euro investi transformé en 39 euros de chiffre d'affaires">
         <defs>
           <linearGradient id="adsArea" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0" stopColor="#E09055" stopOpacity="0.35" />

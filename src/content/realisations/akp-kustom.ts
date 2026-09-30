@@ -8,24 +8,23 @@ const content: CaseStudyContent = {
   location: "Liège",
   services: ["contenu-video", "publicite-meta-linkedin"],
   seo: {
-    title: "AKP Kustom : 20 € de pub, 780 € de CA | ELV8co",
+    title: "AKP Kustom : +100 000 vues et 39× la mise | ELV8co",
     description:
-      "Étude de cas AKP Kustom, atelier textile à Liège : une vidéo à 24 900 vues en organique et 20 € de publicité qui ont rapporté 780 € et 2 clients.",
+      "Étude de cas AKP Kustom, atelier textile à Liège : plus de 100 000 vues en organique et une publicité qui a rapporté 39 fois son coût, avec 2 clients signés.",
     keywords: { primary: "étude de cas vidéo atelier textile Liège", variants: ["AKP Kustom", "publicité Instagram atelier Liège", "vidéo virale entreprise Liège"] },
     ogTitle: "AKP Kustom · 39× la mise",
   },
   hero: {
     eyebrow: "Étude de cas · Atelier textile · Liège",
-    h1: "AKP Kustom : *20 €* de publicité, *780 €* de chiffre d'affaires",
+    h1: "AKP Kustom : *+100 000 vues* et une pub rentabilisée *39 fois*",
     intro:
-      "Un atelier textile liégeois, un savoir-faire très visuel, et une question simple : comment le faire connaître au-delà du cercle de clients existants ? La réponse est passée par la vidéo verticale, puis par un petit budget publicitaire très ciblé.",
+      "Un atelier textile liégeois, un savoir-faire très visuel, et une question simple : comment le faire connaître au-delà du cercle de clients existants ? La réponse est passée par la vidéo verticale, puis par une publicité très ciblée.",
   },
   stats: [
-    { value: 24900, label: "vues sur une seule vidéo, en organique" },
-    { value: 20, suffix: " €", label: "investis en publicité" },
-    { value: 780, suffix: " €", label: "de chiffre d'affaires généré" },
-    { value: 2, label: "clients signés" },
-    { value: 39, suffix: "×", label: "la mise publicitaire" },
+    { value: 100000, prefix: "+", label: "vues cumulées en organique" },
+    { value: 24900, label: "vues sur une seule vidéo" },
+    { value: 39, suffix: "×", label: "chaque euro de publicité en a rapporté 39" },
+    { value: 2, label: "clients signés dès le premier test" },
   ],
   context: [
     "AKP Kustom est un atelier liégeois de personnalisation textile et d'impression DTF. Son métier se prête parfaitement à la vidéo : la matière, les gestes, les étapes de fabrication et le résultat final sont visuels et satisfaisants à regarder.",
@@ -36,17 +35,17 @@ const content: CaseStudyContent = {
   ],
   actions: [
     { title: "Contenu vidéo vertical", text: "Tournage et montage de vidéos courtes montrant le travail de l'atelier, pensées pour Instagram, TikTok et Facebook. L'une d'elles a atteint 24 900 vues en organique, sans aucun budget publicitaire." },
-    { title: "Publicité Meta ciblée", text: "Une campagne avec un budget volontairement réduit (20 €), ciblée sur une audience précise, renvoyant vers un formulaire de demande simple (Tally), pour vérifier que la visibilité pouvait se transformer en ventes." },
+    { title: "Publicité Meta ciblée", text: "Un premier test publicitaire ciblé sur une audience précise, renvoyant vers un formulaire de demande simple (Tally), pour vérifier que la visibilité pouvait se transformer en ventes." },
     { title: "Suivi des résultats", text: "Mesure de ce qui compte : les demandes reçues, les clients signés et le chiffre d'affaires généré, pas seulement les vues." },
   ],
   results: {
     paragraphs: [
-      "La vidéo la plus performante a été vue 24 900 fois en organique. Mais le résultat le plus parlant est ailleurs : 20 € investis en publicité ont généré 780 € de chiffre d'affaires et 2 clients signés, soit 39 fois la mise.",
+      "Les vidéos de l'atelier cumulent plus de 100 000 vues en organique, dont 24 900 pour la plus performante. Mais le résultat le plus parlant est ailleurs : dès le premier test publicitaire, chaque euro investi en a rapporté 39 en chiffre d'affaires, avec 2 clients signés.",
       "Ce cas illustre parfaitement notre approche : les vues sont un moyen, pas une fin. La vraie question reste de savoir si la visibilité ramène des clients. Ici, la réponse est oui.",
     ],
   },
   videos: [],
-  cardSummary: "Une vidéo à 24 900 vues en organique, puis 20 € de publicité transformés en 780 € de chiffre d'affaires.",
+  cardSummary: "Plus de 100 000 vues en organique, et une publicité qui a rapporté 39 fois son coût dès le premier test.",
 };
 
 export default content;

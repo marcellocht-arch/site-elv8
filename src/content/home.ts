@@ -77,12 +77,12 @@ export const home = {
     title: "On ne mesure pas des vues. On compte des *clients*.",
     intro: "Des chiffres vérifiés, issus d'un projet réel : AKP Kustom, atelier textile à Liège.",
     stats: [
-      { value: 24900, label: "vues en organique sur une seule vidéo" },
-      { value: 20, suffix: " €", label: "investis en publicité" },
-      { value: 780, suffix: " €", label: "de chiffre d'affaires généré" },
-      { value: 39, suffix: "×", label: "la mise publicitaire" },
+      { value: 100000, prefix: "+", label: "vues cumulées en organique" },
+      { value: 24900, label: "vues sur une seule vidéo" },
+      { value: 39, suffix: "×", label: "chaque euro de publicité en a rapporté 39" },
+      { value: 2, label: "clients signés dès le premier test publicitaire" },
     ],
-    note: "Et 2 clients signés. Aucun chiffre n'est arrondi ni inventé.",
+    note: "Des chiffres réels, jamais gonflés : les totaux sont arrondis à la baisse.",
     link: "Lire l'étude de cas",
   },
 
