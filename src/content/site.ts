@@ -42,7 +42,7 @@ export const site = {
     tiktok: "",
   },
 
-  areaServed: ["Liège", "Namur", "Verviers", "Province de Luxembourg"],
+  areaServed: ["Liège", "Seraing", "Herstal", "Ans", "Huy", "Visé", "Namur", "Verviers", "Province de Luxembourg"],
 } as const;
 
 export type NavLink = { label: string; href: string; description?: string };
@@ -61,6 +61,7 @@ export const nav = {
     ] satisfies NavLink[],
   },
   main: [
+    { label: "Offres", href: "/offres" },
     { label: "Réalisations", href: "/realisations" },
     { label: "Zones", href: "/zones" },
     { label: "À propos", href: "/a-propos" },
@@ -88,7 +89,9 @@ export const footer = {
     {
       title: "Agence",
       links: [
+        { label: "Nos formules", href: "/offres" },
         { label: "Réalisations", href: "/realisations" },
+        { label: "Conseils", href: "/conseils" },
         { label: "À propos", href: "/a-propos" },
         { label: "Contact", href: "/contact" },
       ],
@@ -106,6 +109,10 @@ export const serviceOptions = [
   "Contenu vidéo vertical",
   "Publicité Meta & LinkedIn",
   "Les 3 services combinés",
+  "Formule Essentiel",
+  "Formule Croissance",
+  "Formule Pro",
+  "Sur mesure",
   "Création de site web",
   "Community management",
   "Je ne sais pas encore",

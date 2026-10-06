@@ -2,10 +2,18 @@ import liege from "./liege";
 import namur from "./namur";
 import verviers from "./verviers";
 import luxembourg from "./province-de-luxembourg";
+import seraing from "./seraing";
+import herstal from "./herstal";
+import ans from "./ans";
+import huy from "./huy";
+import vise from "./vise";
 import type { Seo } from "../types";
 
 export const zones = [liege, namur, verviers, luxembourg];
-export const zoneBySlug = (slug: string) => zones.find((z) => z.slug === slug);
+/** Pages par commune (hors carte du hub). */
+export const localZones = [seraing, herstal, ans, huy, vise];
+export const allZones = [...zones, ...localZones];
+export const zoneBySlug = (slug: string) => allZones.find((z) => z.slug === slug);
 
 /** Page /zones (hub). */
 export const zonesHub = {
