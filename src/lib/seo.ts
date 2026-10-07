@@ -50,6 +50,11 @@ const areaServed = [
   { "@type": "City", name: "Liège" },
   { "@type": "City", name: "Namur" },
   { "@type": "City", name: "Verviers" },
+  { "@type": "City", name: "Seraing" },
+  { "@type": "City", name: "Herstal" },
+  { "@type": "City", name: "Ans" },
+  { "@type": "City", name: "Huy" },
+  { "@type": "City", name: "Visé" },
   { "@type": "AdministrativeArea", name: "Province de Luxembourg" },
 ];
 
@@ -103,6 +108,10 @@ export function localBusinessLd() {
         ["Publicité Meta & LinkedIn", "/publicite-meta-linkedin"],
         ["Création de sites web", "/creation-site-web"],
         ["Community management", "/community-management"],
+        ["Formule Essentiel", "/offres#essentiel"],
+        ["Formule Croissance", "/offres#croissance"],
+        ["Formule Pro", "/offres#pro"],
+        ["Formule Sur mesure", "/offres#sur-mesure"],
       ].map(([name, path]) => ({
         "@type": "Offer",
         itemOffered: { "@type": "Service", name, url: absoluteUrl(path) },

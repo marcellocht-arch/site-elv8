@@ -83,7 +83,7 @@ const content: ServiceContent = {
     title: "Ce que vous pouvez attendre",
     paragraphs: [
       "Une présence qui ne s'arrête plus. Vos abonnés vous voient chaque semaine, les nouveaux visiteurs découvrent un compte vivant, et vos vidéos travaillent pour vous longtemps après leur publication.",
-      "Un exemple réel : pour AKP Kustom, un atelier textile liégeois, une seule vidéo publiée en organique, sans publicité, a atteint *24 900 vues*. Mais les vues ne sont pas notre objectif final. La question que nous posons reste la même : est-ce que ces vidéos vous ramènent des clients ?",
+      "Un exemple réel : pour AKP Kustom, un atelier textile liégeois, les vidéos cumulent *plus de 100 000 vues* en organique, dont *24 900* pour une seule vidéo, sans publicité. Mais les vues ne sont pas notre objectif final. La question que nous posons reste la même : est-ce que ces vidéos vous ramènent des clients ?",
     ],
     points: [
       "Une présence régulière, sans y consacrer vos soirées",

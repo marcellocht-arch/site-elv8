@@ -11,7 +11,7 @@ import { zones, zonesHub } from "@/content/zones";
  */
 export function ZonesMap({ className = "" }: { className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
-  const base = zones[0].map; // Liège
+  const base = zones[0].map!; // Liège
 
   useGSAP(
     () => {
@@ -44,7 +44,7 @@ export function ZonesMap({ className = "" }: { className?: string }) {
         </defs>
         <rect x="2" y="2" width="96" height="101" rx="6" fill="url(#dots)" />
         {zones.slice(1).map((z) => (
-          <path key={z.slug} data-route d={curve(z.map.x, z.map.y)} fill="none" stroke="#E09055" strokeWidth="0.45" strokeLinecap="round" />
+          <path key={z.slug} data-route d={curve(z.map!.x, z.map!.y)} fill="none" stroke="#E09055" strokeWidth="0.45" strokeLinecap="round" />
         ))}
         {zonesHub.mapTowns.map((t) => (
           <path key={t.name} data-route d={curve(t.x, t.y)} fill="none" stroke="#E09055" strokeOpacity="0.35" strokeWidth="0.3" strokeDasharray="0.8 1.2" />
@@ -70,12 +70,12 @@ export function ZonesMap({ className = "" }: { className?: string }) {
           href={`/zones/${z.slug}`}
           data-node
           className="group absolute flex -translate-x-1/2 -translate-y-1/2 items-center gap-2"
-          style={{ left: `${z.map.x}%`, top: `${(z.map.y / 105) * 100}%` }}
+          style={{ left: `${z.map!.x}%`, top: `${(z.map!.y / 105) * 100}%` }}
         >
           <span className={`block rounded-full border-2 border-deep ${i === 0 ? "h-4 w-4 bg-copper-light" : "h-3 w-3 bg-ivory"} transition-transform group-hover:scale-150`} />
           <span
             className={`whitespace-nowrap rounded-full bg-deep/85 px-2.5 py-1 text-xs font-medium backdrop-blur transition-colors group-hover:text-copper-light sm:text-sm ${
-              z.map.x > 55 ? "absolute right-5" : ""
+              z.map!.x > 55 ? "absolute right-5" : ""
             }`}
           >
             {z.name === "Province de Luxembourg" ? "Prov. de Luxembourg" : z.name}

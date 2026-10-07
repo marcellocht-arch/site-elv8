@@ -57,7 +57,7 @@ export default function HomePage() {
               <div key={s.label} className="flex flex-col justify-between gap-6 bg-deep p-5 md:p-8">
                 <dt className="order-2 text-sm leading-snug text-grey md:text-base">{s.label}</dt>
                 <dd className="order-1 font-display text-[2.6rem] leading-none text-copper-light sm:text-6xl lg:text-7xl">
-                  <Counter value={s.value} suffix={s.suffix} />
+                  <Counter value={s.value} prefix={s.prefix} suffix={s.suffix} />
                 </dd>
               </div>
             ))}

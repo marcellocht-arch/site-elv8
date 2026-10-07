@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ZoneContent } from "@/content/types";
-import { zones } from "@/content/zones";
+import { allZones } from "@/content/zones";
 import { PageHero } from "@/components/sections/PageHero";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { CaseCards } from "@/components/sections/CaseCards";
@@ -19,7 +19,7 @@ import { faqLd, webPageLd } from "@/lib/seo";
 /** Gabarit des pages zones (le contenu, lui, est propre à chaque zone). */
 export function ZonePage({ z }: { z: ZoneContent }) {
   const path = `/zones/${z.slug}`;
-  const others = zones.filter((o) => o.slug !== z.slug);
+  const others = allZones.filter((o) => o.slug !== z.slug);
   const bandName = z.slug === "province-de-luxembourg" ? "Luxembourg" : z.name;
 
   return (

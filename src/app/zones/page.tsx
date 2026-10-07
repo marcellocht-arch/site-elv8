@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { zones, zonesHub } from "@/content/zones";
+import { zones, localZones, zonesHub } from "@/content/zones";
 import { buildMetadata, webPageLd } from "@/lib/seo";
 import { PageHero } from "@/components/sections/PageHero";
 import { ContactSection } from "@/components/sections/ContactSection";
@@ -34,6 +34,22 @@ export default function Page() {
             </TiltCard>
           ))}
         </Reveal>
+        <div className="mt-16">
+          <h2 className="eyebrow mb-6">Pages dédiées par commune</h2>
+          <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {localZones.map((z) => (
+              <li key={z.slug}>
+                <Link href={`/zones/${z.slug}`} className="group flex h-full flex-col rounded-2xl border border-ivory/12 px-5 py-4 transition-colors hover:border-copper-light/60">
+                  <span className="flex items-center justify-between font-display text-2xl">
+                    {z.name}
+                    <ArrowUpRight size={16} className="text-copper-light transition-transform duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                  </span>
+                  <span className="mt-1 text-sm text-grey">{z.cardSummary}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
         <p className="mt-10 max-w-2xl text-grey">{zonesHub.outside}</p>
       </section>
       <section className="container-x pb-24 md:pb-32">

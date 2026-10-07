@@ -92,7 +92,7 @@ export type ZoneContent = {
   faq: Faq[];
   cta: Cta;
   /** Coordonnées approximatives (carte schématique du hub). */
-  map: { x: number; y: number };
+  map?: { x: number; y: number };
   cardSummary: string;
 };
 

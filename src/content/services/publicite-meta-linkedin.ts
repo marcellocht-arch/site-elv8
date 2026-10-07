@@ -43,7 +43,7 @@ const content: ServiceContent = {
     paragraphs: [
       "Nous commençons par définir l'objectif réel : des appels, des demandes de devis, des réservations, des inscriptions, des visites. Ensuite, nous construisons l'audience : zone géographique précise autour de votre établissement, centres d'intérêt, fonctions et secteurs sur LinkedIn, et surtout les personnes qui connaissent déjà votre entreprise.",
       "Nous créons les annonces à partir de vos meilleures vidéos et de vos images, avec des accroches testées en plusieurs versions. Puis nous suivons les campagnes de près : ce qui coûte trop cher est coupé, ce qui fonctionne reçoit plus de budget.",
-      "Un exemple réel : pour AKP Kustom, un atelier textile liégeois, *20 € investis* en publicité ont généré *780 € de chiffre d'affaires* et *2 clients signés*, soit 39 fois la mise. Chaque situation est différente, mais ce cas montre qu'un petit budget, bien ciblé et bien suivi, peut suffire à déclencher des ventes.",
+      "Un exemple réel : pour AKP Kustom, un atelier textile liégeois, *chaque euro investi* en publicité en a rapporté *39 en chiffre d'affaires*, avec *2 clients signés* dès le premier test. Chaque situation est différente, mais le principe reste le même quel que soit votre budget : bien cibler, mesurer, puis investir davantage là où ça rapporte.",
       "La publicité est notre troisième pilier : la *portée*. Elle amplifie la confiance créée par votre personal branding et la régularité de votre contenu.",
     ],
   },

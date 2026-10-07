@@ -32,6 +32,7 @@ export function CaseCards({ slugs, headingLevel = "h3" }: { slugs?: string[]; he
               <div className="mt-auto pt-8">
                 {stat ? (
                   <p className="font-display text-5xl text-copper-light">
+                    {stat.prefix}
                     {numberFr(stat.value)}
                     {stat.suffix}
                     <span className="mt-1 block font-sans text-xs uppercase tracking-[0.14em] text-grey">{stat.label}</span>
