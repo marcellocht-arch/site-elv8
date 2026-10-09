@@ -43,7 +43,7 @@ const content: ServiceContent = {
     paragraphs: [
       "Le personal branding, ce n'est pas devenir influenceur. C'est rendre visible ce qui fait déjà votre valeur : votre expérience, votre façon de travailler, vos convictions, votre proximité. Nous construisons avec vous une présence cohérente, qui vous ressemble et qui donne envie de vous appeler.",
       "Concrètement, nous commençons par comprendre votre métier et vos clients. Qui voulez-vous attirer ? Quelles questions vous pose-t-on sans arrêt ? Qu'est-ce qui vous différencie réellement ? À partir de là, nous définissons votre positionnement, votre ton et vos grands sujets, puis nous vous aidons à les incarner, en image, en vidéo et à l'écrit.",
-      "Le personal branding est le premier pilier de notre méthode : la *confiance*. Il prend toute sa force quand il est nourri par un contenu régulier et amplifié par la publicité. Seul, il fonctionne. Combiné aux deux autres, il change tout.",
+      "Le personal branding est le premier pilier de notre méthode : la *confiance*. Il prend toute sa force quand il est nourri par un [contenu vidéo régulier](/contenu-video) et amplifié par la [publicité locale](/publicite-meta-linkedin). Seul, il fonctionne. Combiné aux deux autres, il change tout.",
     ],
   },
   included: {
@@ -82,7 +82,7 @@ const content: ServiceContent = {
     title: "Ce que vous pouvez attendre",
     paragraphs: [
       "Le personal branding ne produit pas de miracle en une semaine. Il produit quelque chose de plus solide : une réputation. Les effets se voient d'abord dans la qualité des échanges. Les prospects qui vous contactent vous connaissent déjà, ont déjà vu vos vidéos, savent comment vous travaillez. Les rendez-vous sont plus courts, la négociation sur le prix plus rare.",
-      "Nous ne mesurons pas votre succès en nombre d'abonnés. Nous vous posons régulièrement une seule question : est-ce que ça vous ramène des clients ? Et nous ajustons en fonction de la réponse.",
+      "Pour démarrer par vous-même, voici [7 actions concrètes pour faire connaître son commerce à Liège](/conseils/faire-connaitre-son-commerce-a-liege). Nous ne mesurons pas votre succès en nombre d'abonnés. Nous vous posons régulièrement une seule question : est-ce que ça vous ramène des clients ? Et nous ajustons en fonction de la réponse.",
     ],
     points: [
       "Des prospects qui arrivent « chauds », déjà convaincus par votre expertise",

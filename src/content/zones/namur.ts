@@ -51,9 +51,9 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *à Namur*",
     paragraphs: [
-      "Namur est à moins d'une heure de Liège : nous y organisons des journées de tournage complètes, préparées à l'avance, pour produire le contenu de plusieurs semaines en une seule venue.",
+      "Namur est à moins d'une heure de [Liège](/zones/liege), en passant par [Huy](/zones/huy) : nous y organisons des journées de tournage complètes, préparées à l'avance, pour produire le [contenu vidéo](/contenu-video) de plusieurs semaines en une seule venue, comme nous le faisons en [province de Luxembourg](/zones/province-de-luxembourg).",
       "Nous construisons des calendriers éditoriaux qui suivent le rythme namurois : rentrée, événements, saison touristique, fêtes de fin d'année. Pour la publicité, nous segmentons les audiences (actifs, étudiants, habitants de la périphérie) plutôt que de viser « tout Namur ».",
-      "Pour les professions libérales et les entreprises de services, nous mettons l'accent sur le personal branding et LinkedIn, très efficaces dans une ville où les réseaux professionnels sont denses.",
+      "Pour les professions libérales et les entreprises de services, nous mettons l'accent sur le [personal branding](/personal-branding) et LinkedIn, très efficaces dans une ville où les réseaux professionnels sont denses.",
     ],
   },
   communes: {

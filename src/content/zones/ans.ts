@@ -48,8 +48,8 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *à Ans*",
     paragraphs: [
-      "Ans est à quelques minutes de Liège : nous tournons chez vous, dans votre garage, votre commerce ou sur vos chantiers.",
-      "Pour la publicité, nous ciblons Ans et les communes voisines (Awans, Grâce-Hollogne, Saint-Nicolas, Juprelle) selon votre clientèle.",
+      "Ans est à quelques minutes de [Liège](/zones/liege) : nous [tournons vos vidéos](/contenu-video) chez vous, dans votre garage, votre commerce ou sur vos chantiers.",
+      "Pour la [publicité](/publicite-meta-linkedin), nous ciblons Ans et les communes voisines (Awans, Grâce-Hollogne, Saint-Nicolas, Juprelle) selon votre clientèle.",
     ],
   },
   communes: {

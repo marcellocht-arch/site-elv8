@@ -6,9 +6,10 @@ export const absoluteUrl = (path = "/") => `${site.url}${path === "/" ? "" : pat
 
 const isFilled = (v?: string) => !!v && !v.includes("[À COMPLÉTER");
 
-/** Retire la syntaxe de mise en forme (*mot*, [À COMPLÉTER …]) d'un texte. */
+/** Retire la syntaxe de mise en forme (*mot*, [texte](/lien), [À COMPLÉTER …]) d'un texte. */
 export const plain = (s: string) =>
   s
+    .replace(/\[([^\]]+)\]\(\/[^)\s]*\)/g, "$1")
     .replace(/\[À COMPLÉTER[^\]]*\]/g, "")
     .replace(/\*([^*]+)\*/g, "$1")
     .replace(/\s{2,}/g, " ")

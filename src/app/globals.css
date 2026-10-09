@@ -108,6 +108,21 @@ body {
   font-style: italic;
 }
 
+/* Lien interne dans un paragraphe (maillage SEO) */
+.text-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-copper-light) 70%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+.text-link:hover,
+.text-link:focus-visible {
+  color: var(--color-copper-light);
+  text-decoration-color: var(--color-copper-light);
+}
+
 /* Conteneur */
 .container-x {
   width: 100%;

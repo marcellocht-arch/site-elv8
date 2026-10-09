@@ -1,6 +1,9 @@
 import { Fragment, type ReactNode } from "react";
+import Link from "next/link";
 
-const TOKEN = /(\[À COMPLÉTER[^\]]*\]|\*[^*]+\*)/g;
+// Ordre important : le lien [texte](/chemin) est testé avant la pastille [À COMPLÉTER …].
+const TOKEN = /(\[[^\]]+\]\(\/[^)\s]*\)|\[À COMPLÉTER[^\]]*\]|\*[^*]+\*)/g;
+const LINK = /^\[([^\]]+)\]\((\/[^)\s]*)\)$/;
 
 /** Typographie française : espaces insécables (« ? ! : ; € × % », nombres) et apostrophes typographiques. */
 export const frTypo = (s: string) =>
@@ -14,11 +17,20 @@ export const frTypo = (s: string) =>
  * Affiche un texte de contenu :
  *  - *mot*           → mis en valeur (cuivre, italique)
  *  - [À COMPLÉTER …] → pastille visible signalant une info manquante
+ *  - [texte](/chemin) → lien interne dans le texte (maillage SEO, voir SEO-PROCESS.md)
  */
 export function Txt({ children }: { children: string }): ReactNode {
   const parts = frTypo(children).split(TOKEN);
   return parts.map((part, i) => {
     if (!part) return null;
+    const link = part.match(LINK);
+    if (link) {
+      return (
+        <Link key={i} href={link[2]} className="text-link">
+          {link[1]}
+        </Link>
+      );
+    }
     if (part.startsWith("[À COMPLÉTER")) {
       return (
         <mark key={i} className="todo" title="Information à compléter">

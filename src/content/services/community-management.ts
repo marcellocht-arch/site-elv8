@@ -41,7 +41,7 @@ const content: ServiceContent = {
     paragraphs: [
       "Le community management prend le relais là où s'arrêtent la production de contenu et la publicité. Un community manager planifie et publie vos contenus, répond aux commentaires et aux messages selon des consignes que nous définissons ensemble, relaie les avis et les mentions, et vous transmet immédiatement les demandes commerciales.",
       "ELV8co pilote ce service avec des community managers freelances spécialisés. Nous établissons la charte de réponse (ton, délais, réponses types, ce qui doit vous être remonté), nous formons le freelance à votre activité et nous contrôlons régulièrement la qualité. Vous gardez la main sur les décisions importantes.",
-      "Associé au contenu vidéo, le community management donne à vos réseaux ce qui leur manque souvent : une vraie conversation avec votre public.",
+      "Associé au [contenu vidéo](/contenu-video), le community management donne à vos réseaux ce qui leur manque souvent : une vraie conversation avec votre public.",
     ],
   },
   included: {
@@ -85,7 +85,7 @@ const content: ServiceContent = {
   results: {
     title: "Ce que vous pouvez attendre",
     paragraphs: [
-      "Des réseaux actifs et cohérents, des messages qui reçoivent une réponse, des demandes qui arrivent jusqu'à vous au lieu de se perdre. Et du temps récupéré pour votre cœur de métier.",
+      "Pour savoir sur quels réseaux concentrer l'effort, lisez [Reels, TikTok ou Facebook : quel réseau pour un commerce local](/conseils/reels-tiktok-facebook-quel-reseau-commerce-local). Le résultat : des réseaux actifs et cohérents, des messages qui reçoivent une réponse, des demandes qui arrivent jusqu'à vous au lieu de se perdre. Et du temps récupéré pour votre cœur de métier.",
       "Comme pour tous nos services, nous jugeons le community management à ses effets concrets : combien de demandes ont été traitées et transmises, et combien sont devenues des clients.",
     ],
     points: [

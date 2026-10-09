@@ -9,7 +9,7 @@ const content: LegalContent = {
     ogTitle: "Mentions légales",
   },
   h1: "Mentions légales",
-  updated: "30 septembre 2026",
+  updated: "9 octobre 2026",
   intro:
     "Conformément au Code de droit économique belge (notamment ses articles III.74 et XII.7), voici les informations relatives à l'éditeur et à l'hébergeur du site elv8co.be.",
   sections: [
@@ -26,7 +26,7 @@ const content: LegalContent = {
     {
       title: "Hébergement",
       paragraphs: [
-        "Le site est hébergé par Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis — vercel.com.",
+        "Le site est hébergé par Netlify, Inc., San Francisco (Californie), États-Unis — netlify.com.",
         "Le nom de domaine et la messagerie électronique sont gérés par one.com.",
       ],
     },

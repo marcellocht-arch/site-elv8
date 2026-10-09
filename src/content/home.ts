@@ -3,18 +3,18 @@ import type { Faq, Seo } from "./types";
 /** Page d'accueil — tous les textes. */
 export const home = {
   seo: {
-    title: "ELV8co | Agence de visibilité locale à Liège",
+    title: "Agence vidéo et réseaux sociaux à Liège | ELV8co",
     description:
       "Personal branding, vidéo verticale et publicité Meta & LinkedIn pour commerces, artisans et PME à Liège, Namur, Verviers et Luxembourg.",
     keywords: {
-      primary: "agence marketing digital Liège",
-      variants: ["agence personal branding Liège", "agence vidéo réseaux sociaux Liège", "agence publicité Meta Liège", "visibilité entreprise locale Wallonie"],
+      primary: "agence vidéo réseaux sociaux Liège",
+      variants: ["agence réseaux sociaux Liège", "agence vidéo Liège", "agence personal branding Liège", "agence publicité Meta Liège", "visibilité entreprise locale Wallonie"],
     },
     ogTitle: "Devenez visible. Attirez des clients.",
   } satisfies Seo,
 
   hero: {
-    eyebrow: "Agence de visibilité locale à Liège",
+    eyebrow: "Agence vidéo et réseaux sociaux à Liège",
     // « / » force un retour à la ligne sur grand écran
     h1: "Devenez *visible*. / Attirez des clients.",
     intro:

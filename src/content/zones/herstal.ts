@@ -49,8 +49,8 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *à Herstal*",
     paragraphs: [
-      "Herstal est à deux pas de Liège : nous tournons chez vous régulièrement, sans frais de déplacement compliqués.",
-      "Nos campagnes ciblent Herstal et ses voisines (Oupeye, Juprelle, Liège nord) selon la provenance réelle de vos clients.",
+      "Herstal est à deux pas de Liège : nous [tournons vos vidéos](/contenu-video) chez vous régulièrement, sans frais de déplacement compliqués.",
+      "Nos [campagnes publicitaires](/publicite-meta-linkedin) ciblent Herstal et ses voisines (Oupeye, Juprelle, Liège nord) selon la provenance réelle de vos clients. Plus au nord, nous accompagnons aussi les entreprises de [Visé et de la Basse-Meuse](/zones/vise).",
     ],
   },
   communes: {

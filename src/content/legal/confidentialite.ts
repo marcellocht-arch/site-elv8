@@ -9,7 +9,7 @@ const content: LegalContent = {
     ogTitle: "Confidentialité",
   },
   h1: "Politique de confidentialité",
-  updated: "30 septembre 2026",
+  updated: "9 octobre 2026",
   intro:
     "La protection de vos données personnelles est importante pour nous. Cette politique explique quelles données nous collectons, pourquoi, combien de temps nous les conservons et quels sont vos droits, conformément au Règlement général sur la protection des données (RGPD, UE 2016/679) et à la loi belge du 30 juillet 2018 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel.",
   sections: [
@@ -48,7 +48,7 @@ const content: LegalContent = {
       ],
       list: [
         "one.com : hébergement de la messagerie électronique (Union européenne).",
-        "Vercel Inc. : hébergement du site. Le formulaire est traité par les serveurs de Vercel ; les transferts éventuels vers les États-Unis sont encadrés par le cadre de protection des données UE–États-Unis (Data Privacy Framework) et/ou les clauses contractuelles types de la Commission européenne.",
+        "Netlify, Inc. : hébergement du site. Le formulaire est traité par les serveurs de Netlify ; les transferts éventuels vers les États-Unis sont encadrés par le cadre de protection des données UE–États-Unis (Data Privacy Framework) et/ou les clauses contractuelles types de la Commission européenne.",
         "Le cas échéant, les freelances de notre réseau chargés d'un projet vous concernant, uniquement pour les données nécessaires à ce projet et sous obligation de confidentialité.",
       ],
     },

@@ -12,14 +12,14 @@ const content: ServiceContent = {
     description:
       "Vidéos verticales pour Reels, TikTok et Shorts : tournage, montage et motion design pour entreprises locales à Liège, Namur, Verviers et Luxembourg.",
     keywords: {
-      primary: "création contenu vidéo Namur",
-      variants: ["création contenu vidéo Liège", "vidéo verticale entreprise", "Reels Instagram entreprise", "vidéaste réseaux sociaux Liège", "motion design Liège"],
+      primary: "création contenu vidéo Liège",
+      variants: ["création contenu vidéo Namur", "vidéo verticale entreprise", "Reels Instagram entreprise", "vidéaste réseaux sociaux Liège", "motion design Liège"],
     },
     ogTitle: "Contenu vidéo vertical",
   },
   hero: {
     eyebrow: "Service principal · Régularité",
-    h1: "Contenu vidéo vertical qui *fait revenir* vos clients",
+    h1: "Contenu vidéo à Liège qui *fait revenir* vos clients",
     intro:
       "Reels, TikTok, Shorts, stories : la vidéo verticale est devenue le premier endroit où l'on découvre une entreprise locale. Nous la tournons, la montons et la publions pour vous, chaque semaine, avec un seul objectif : que l'on pense à vous au bon moment.",
   },
@@ -43,8 +43,8 @@ const content: ServiceContent = {
     paragraphs: [
       "Nous prenons en charge toute la chaîne de production. Nous préparons un plan de contenus à partir des vraies questions de vos clients, nous tournons plusieurs vidéos en une seule séance pour économiser votre temps, puis nous montons des formats courts, rythmés et sous-titrés, prêts à publier.",
       "Chaque vidéo a un rôle : faire découvrir votre entreprise, expliquer un sujet que vos clients comprennent mal, montrer les coulisses de votre travail, présenter une réalisation, ou donner une raison de vous contacter maintenant. Nous alternons ces formats pour construire une présence complète.",
-      "Quand un sujet se filme mal, nous utilisons le motion design : des animations claires pour expliquer un processus, une démarche administrative ou une offre. C'est ce que nous avons fait pour Solidas, un courtier en assurances, avec des vidéos pédagogiques comme « comment déclarer un sinistre ».",
-      "Le contenu vidéo est notre deuxième pilier : la *régularité*. Il nourrit votre personal branding et fournit à la publicité la matière qui convertit.",
+      "Quand un sujet se filme mal, nous utilisons le motion design : des animations claires pour expliquer un processus, une démarche administrative ou une offre. C'est ce que nous avons fait pour [Solidas](/realisations/solidas), un courtier en assurances, avec des vidéos pédagogiques comme « comment déclarer un sinistre ».",
+      "Le contenu vidéo est notre deuxième pilier : la *régularité*. Il nourrit votre [personal branding](/personal-branding) et fournit à la [publicité Facebook et Instagram](/publicite-meta-linkedin) la matière qui convertit. Pour choisir où publier, lisez [quel réseau pour un commerce local](/conseils/reels-tiktok-facebook-quel-reseau-commerce-local).",
     ],
   },
   included: {
@@ -82,8 +82,8 @@ const content: ServiceContent = {
   results: {
     title: "Ce que vous pouvez attendre",
     paragraphs: [
-      "Une présence qui ne s'arrête plus. Vos abonnés vous voient chaque semaine, les nouveaux visiteurs découvrent un compte vivant, et vos vidéos travaillent pour vous longtemps après leur publication.",
-      "Un exemple réel : pour AKP Kustom, un atelier textile liégeois, les vidéos cumulent *plus de 100 000 vues* en organique, dont *24 900* pour une seule vidéo, sans publicité. Mais les vues ne sont pas notre objectif final. La question que nous posons reste la même : est-ce que ces vidéos vous ramènent des clients ?",
+      "Une présence qui ne s'arrête plus, surtout si les commentaires et messages reçoivent une réponse : c'est le rôle du [community management](/community-management). Vos abonnés vous voient chaque semaine, les nouveaux visiteurs découvrent un compte vivant, et vos vidéos travaillent pour vous longtemps après leur publication.",
+      "Un exemple réel : pour [AKP Kustom](/realisations/akp-kustom), un atelier textile liégeois, les vidéos cumulent *plus de 100 000 vues* en organique, dont *24 900* pour une seule vidéo, sans publicité. Mais les vues ne sont pas notre objectif final. La question que nous posons reste la même : est-ce que ces vidéos vous ramènent des clients ?",
     ],
     points: [
       "Une présence régulière, sans y consacrer vos soirées",

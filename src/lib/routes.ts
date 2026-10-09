@@ -18,6 +18,8 @@ export type SiteRoute = {
   ogKicker: string;
   priority: number;
   changeFrequency: "weekly" | "monthly" | "yearly";
+  /** Date réelle de dernière modification (AAAA-MM-JJ), connue pour les articles uniquement. */
+  lastModified?: string;
 };
 
 /** Registre unique de toutes les pages : alimente le sitemap et les images Open Graph. */
@@ -41,7 +43,7 @@ export function allRoutes(): SiteRoute[] {
     ...zones.map((z) => r(`/zones/${z.slug}`, `zones-${z.slug}`, z.seo.ogTitle ?? z.name, "Zone d'intervention", 0.8)),
     ...localZones.map((z) => r(`/zones/${z.slug}`, `zones-${z.slug}`, z.seo.ogTitle ?? z.name, "Zone d'intervention", 0.7)),
     r("/conseils", "conseils", conseilsHub.seo.ogTitle ?? "Conseils", "Conseils visibilité locale", 0.7, "weekly"),
-    ...conseils.map((a) => r(`/conseils/${a.slug}`, `conseils-${a.slug}`, a.seo.ogTitle ?? a.title, "Conseil", 0.6)),
+    ...conseils.map((a) => ({ ...r(`/conseils/${a.slug}`, `conseils-${a.slug}`, a.seo.ogTitle ?? a.title, "Conseil", 0.6), lastModified: a.updated ?? a.date })),
     r("/a-propos", "a-propos", about.seo.ogTitle ?? "À propos", "L'agence", 0.6),
     r("/contact", "contact", contact.seo.ogTitle ?? "Contact", "Un appel de 30 minutes suffit", 0.7),
     r("/mentions-legales", "mentions-legales", mentions.seo.ogTitle ?? "Mentions légales", "Informations légales", 0.2, "yearly"),

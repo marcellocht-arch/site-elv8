@@ -50,8 +50,8 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *à Seraing*",
     paragraphs: [
-      "Seraing est à quelques minutes de Liège : nous venons tourner chez vous aussi souvent que nécessaire, dans votre commerce, votre atelier ou sur vos chantiers.",
-      "Pour la publicité, nous ciblons les habitants de Seraing et des communes voisines (Flémalle, Saint-Nicolas, Neupré) dans un rayon adapté à votre activité.",
+      "Seraing est à quelques minutes de Liège : nous venons [tourner vos vidéos](/contenu-video) chez vous aussi souvent que nécessaire, dans votre commerce, votre atelier ou sur vos chantiers.",
+      "Pour la [publicité](/publicite-meta-linkedin), nous ciblons les habitants de Seraing et des communes voisines (Flémalle, Saint-Nicolas, Neupré) dans un rayon adapté à votre activité, et jusqu'à [Liège](/zones/liege) si vos clients viennent de là.",
     ],
   },
   communes: {
