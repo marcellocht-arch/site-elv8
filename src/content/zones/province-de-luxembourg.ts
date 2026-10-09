@@ -51,9 +51,9 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *en province de Luxembourg*",
     paragraphs: [
-      "Depuis Liège, nous organisons des journées de tournage sur place, préparées minutieusement, pour produire en une venue le contenu de plusieurs semaines. Entre deux tournages, nous restons en contact à distance pour la validation et la publication.",
+      "Depuis [Liège](/zones/liege), comme à [Namur](/zones/namur), nous organisons des journées de tournage sur place, préparées minutieusement, pour produire en une venue le [contenu vidéo](/contenu-video) de plusieurs semaines. Entre deux tournages, nous restons en contact à distance pour la validation et la publication.",
       "Pour la publicité, nous construisons des zones de ciblage adaptées au territoire : grands rayons autour des villes-centres, ciblage des touristes potentiels depuis Bruxelles, la Flandre, les Pays-Bas ou le Grand-Duché pour les activités touristiques, et ciblage des profils professionnels sur LinkedIn pour le recrutement.",
-      "Nous accordons une attention particulière à la fiche Google Business Profile et au référencement local : dans une région où l'on cherche « près de moi » depuis la route, c'est souvent le premier contact avec votre entreprise.",
+      "Nous accordons une attention particulière à la [fiche Google Business Profile](/conseils/fiche-google-reglages-commerce-local) et au référencement local : dans une région où l'on cherche « près de moi » depuis la route, c'est souvent le premier contact avec votre entreprise.",
     ],
   },
   communes: {

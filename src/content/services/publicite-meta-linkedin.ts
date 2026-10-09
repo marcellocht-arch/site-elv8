@@ -8,18 +8,18 @@ const content: ServiceContent = {
   pillar: "Portée",
   tagline: "Toucher les bonnes personnes, près de chez vous, au bon moment.",
   seo: {
-    title: "Publicité Facebook, Instagram et LinkedIn | ELV8co",
+    title: "Publicité Facebook et Instagram à Liège | ELV8co",
     description:
       "Campagnes Meta (Facebook, Instagram) et LinkedIn Ads pour entreprises locales à Liège, Verviers, Namur et Luxembourg. Des clients, pas des likes.",
     keywords: {
-      primary: "publicité Facebook Instagram Verviers",
-      variants: ["publicité Facebook Liège", "publicité Instagram entreprise locale", "LinkedIn Ads Belgique", "agence Meta Ads Liège", "campagne publicitaire réseaux sociaux Namur"],
+      primary: "publicité Facebook Liège",
+      variants: ["publicité Facebook Instagram Verviers", "publicité Instagram entreprise locale", "LinkedIn Ads Belgique", "agence Meta Ads Liège", "campagne publicitaire réseaux sociaux Namur"],
     },
     ogTitle: "Publicité Meta & LinkedIn",
   },
   hero: {
     eyebrow: "Service principal · Portée",
-    h1: "Publicité Meta & LinkedIn : chaque euro doit *ramener* des clients",
+    h1: "Publicité Facebook et Instagram à Liège : chaque euro doit *ramener* des clients",
     intro:
       "Facebook, Instagram et LinkedIn permettent de cibler précisément les habitants d'une zone, les dirigeants d'un secteur ou les personnes qui ont déjà vu vos vidéos. Nous concevons et pilotons des campagnes qui se jugent sur un seul critère : les clients qu'elles vous apportent.",
   },
@@ -43,8 +43,8 @@ const content: ServiceContent = {
     paragraphs: [
       "Nous commençons par définir l'objectif réel : des appels, des demandes de devis, des réservations, des inscriptions, des visites. Ensuite, nous construisons l'audience : zone géographique précise autour de votre établissement, centres d'intérêt, fonctions et secteurs sur LinkedIn, et surtout les personnes qui connaissent déjà votre entreprise.",
       "Nous créons les annonces à partir de vos meilleures vidéos et de vos images, avec des accroches testées en plusieurs versions. Puis nous suivons les campagnes de près : ce qui coûte trop cher est coupé, ce qui fonctionne reçoit plus de budget.",
-      "Un exemple réel : pour AKP Kustom, un atelier textile liégeois, *chaque euro investi* en publicité en a rapporté *39 en chiffre d'affaires*, avec *2 clients signés* dès le premier test. Chaque situation est différente, mais le principe reste le même quel que soit votre budget : bien cibler, mesurer, puis investir davantage là où ça rapporte.",
-      "La publicité est notre troisième pilier : la *portée*. Elle amplifie la confiance créée par votre personal branding et la régularité de votre contenu.",
+      "Un exemple réel : pour [AKP Kustom](/realisations/akp-kustom), un atelier textile liégeois, *chaque euro investi* en publicité en a rapporté *39 en chiffre d'affaires*, avec *2 clients signés* dès le premier test. Chaque situation est différente, mais le principe reste le même quel que soit votre budget : bien cibler, mesurer, puis investir davantage là où ça rapporte.",
+      "La publicité est notre troisième pilier : la *portée*. Elle amplifie la confiance créée par votre [personal branding](/personal-branding) et la régularité de votre [contenu vidéo](/contenu-video).",
     ],
   },
   included: {
@@ -83,7 +83,7 @@ const content: ServiceContent = {
     title: "Ce que vous pouvez attendre",
     paragraphs: [
       "Des campagnes dont vous comprenez chaque euro. Nous ne vous promettons pas des résultats identiques à ceux d'AKP Kustom : chaque marché, chaque offre et chaque budget sont différents. Nous vous promettons une méthode rigoureuse, des tests honnêtes et des décisions basées sur ce qui vous ramène réellement des clients.",
-      "Et si la publicité n'est pas rentable pour votre activité, nous vous le dirons. Mieux vaut investir ailleurs que de continuer à dépenser sans retour.",
+      "Une campagne envoie des visiteurs : il faut un [site qui les transforme en appels](/creation-site-web) et une [fiche Google soignée](/conseils/fiche-google-reglages-commerce-local) pour ceux qui vérifient avant d'appeler. Et si la publicité n'est pas rentable pour votre activité, nous vous le dirons. Mieux vaut investir ailleurs que de continuer à dépenser sans retour.",
     ],
     points: [
       "Un coût par demande connu et suivi",

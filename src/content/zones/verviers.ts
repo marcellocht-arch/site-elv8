@@ -51,8 +51,8 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *à Verviers*",
     paragraphs: [
-      "Verviers est proche de Liège : nous nous y rendons facilement pour tourner, rencontrer nos clients ou couvrir un événement. La régularité du contenu reste donc possible, comme en ville.",
-      "Pour la publicité Facebook et Instagram, nous définissons des zones qui correspondent aux déplacements réels de vos clients : la vallée de la Vesdre, le plateau de Herve, les communes des Fagnes, ou un rayon autour de votre adresse.",
+      "Verviers est proche de [Liège](/zones/liege) : nous nous y rendons facilement pour tourner, rencontrer nos clients ou couvrir un événement. La régularité du [contenu vidéo](/contenu-video) reste donc possible, comme en ville. Sur le plateau de Herve, nous avons accompagné le courtier [Solidas](/realisations/solidas).",
+      "Pour la [publicité Facebook et Instagram](/publicite-meta-linkedin), nous définissons des zones qui correspondent aux déplacements réels de vos clients : la vallée de la Vesdre, le plateau de Herve, les communes des Fagnes, ou un rayon autour de votre adresse.",
       "Nous misons sur l'authenticité : des visages connus, des lieux reconnaissables, des histoires vraies. Dans une région où tout le monde se connaît un peu, c'est ce qui crée l'attachement.",
     ],
   },

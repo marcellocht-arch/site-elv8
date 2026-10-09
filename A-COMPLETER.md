@@ -36,7 +36,6 @@ Fichiers : `src/content/realisations/*.ts`. Vidéos : voir README, section « Aj
 - Tarifs indicatifs ou mention « sur devis » : FAQ de l'accueil (`src/content/home.ts`) et de `personal-branding.ts`.
 - Honoraires de gestion publicitaire : `src/content/services/publicite-meta-linkedin.ts`.
 - Conditions de cession des droits sur les vidéos : `src/content/services/contenu-video.ts`.
-- Délai indicatif de création d'un site : `src/content/services/creation-site-web.ts`.
 - Prise en charge des contenus en allemand (Verviers) : `src/content/zones/verviers.ts`.
 - Adresse / quartier à Liège : `src/content/zones/liege.ts`.
 - Horaires de disponibilité : `src/content/contact.ts`.
@@ -45,10 +44,18 @@ Fichiers : `src/content/realisations/*.ts`. Vidéos : voir README, section « Aj
 
 - Lien de prise de rendez-vous en ligne (Calendly, Cal.com…) : `src/content/site.ts` → `contact.bookingUrl` (sinon, le bouton renvoie vers le formulaire).
 - Réseaux sociaux (Instagram, LinkedIn, Facebook, TikTok) : `src/content/site.ts` → `social` (ils s'ajoutent automatiquement aux données structurées).
-- Variables d'environnement SMTP (`SMTP_USER`, `SMTP_PASS`) dans Vercel : voir README.
+- Variables d'environnement SMTP (`SMTP_USER`, `SMTP_PASS`) dans Netlify (Site configuration → Environment variables). Le site est hébergé sur Netlify, pas sur Vercel.
 - Vidéos et images : `public/videos/`, `public/images/`.
 
-## 5. Liste détaillée (générée automatiquement)
+## 5. Référencement local (voir `seo/STRATEGIE.md`)
+
+- Lien de la fiche Google Business Profile d'ELV8co : à ajouter dans `src/content/site.ts`, pour intégrer la carte et les avis Google sur la page d'accueil et dans les données structurées.
+- Adresse exacte telle qu'elle figure sur la fiche Google (caractère pour caractère), ou confirmation que la fiche est en « zone desservie » sans adresse publique.
+- Adresses des profils Facebook, Instagram, LinkedIn, TikTok et de la chaîne YouTube : `src/content/site.ts` → `social`.
+- Mention + lien vers elv8co.be sur les sites des clients (AKP Kustom, Solidas, Dessy Immo, Volt'aqua), à demander.
+- Adresse postale exacte de Netlify, Inc. pour les mentions légales (actuellement : San Francisco, États-Unis).
+
+## 6. Liste détaillée (générée automatiquement)
 
 <!-- DÉBUT LISTE AUTOMATIQUE (npm run todos) -->
 

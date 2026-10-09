@@ -42,7 +42,7 @@ export default async function Page({ params }: Props) {
     headline: a.title,
     description: a.seo.description,
     datePublished: a.date,
-    dateModified: a.date,
+    dateModified: a.updated ?? a.date,
     inLanguage: "fr-BE",
     mainEntityOfPage: absoluteUrl(path),
     image: absoluteUrl(`/og/conseils-${a.slug}`),
@@ -54,7 +54,7 @@ export default async function Page({ params }: Props) {
     <>
       <PageHero
         crumbs={[{ name: "Conseils", path: "/conseils" }, { name: a.title, path }]}
-        eyebrow={`${a.category} · ${a.readMinutes} min de lecture · ${fmt(a.date)}`}
+        eyebrow={`${a.category} · ${a.readMinutes} min de lecture · ${fmt(a.date)}${a.updated && a.updated !== a.date ? ` · mis à jour le ${fmt(a.updated)}` : ""}`}
         title={a.title}
         intro={a.intro}
         cta={false}

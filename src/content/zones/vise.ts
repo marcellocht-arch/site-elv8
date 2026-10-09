@@ -48,8 +48,8 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *à Visé*",
     paragraphs: [
-      "Visé est à une vingtaine de minutes de Liège : nous tournons sur place, dans votre commerce ou votre atelier.",
-      "Les campagnes ciblent la Basse-Meuse et, si c'est pertinent pour vous, la clientèle de l'autre côté de la frontière.",
+      "Visé est à une vingtaine de minutes de [Liège](/zones/liege), en passant par [Herstal](/zones/herstal) : nous [tournons vos vidéos](/contenu-video) sur place, dans votre commerce ou votre atelier.",
+      "Les [campagnes publicitaires](/publicite-meta-linkedin) ciblent la Basse-Meuse et, si c'est pertinent pour vous, la clientèle de l'autre côté de la frontière.",
     ],
   },
   communes: {

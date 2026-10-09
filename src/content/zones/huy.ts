@@ -48,8 +48,8 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *à Huy*",
     paragraphs: [
-      "Nous venons tourner à Huy en regroupant les prises de vue, pour produire plusieurs semaines de contenu en une demi-journée.",
-      "Les campagnes publicitaires ciblent Huy et les communes voisines selon la provenance de vos clients, avec des messages différents pour les habitants et les visiteurs si besoin.",
+      "Huy est à mi-chemin entre [Liège](/zones/liege) et [Namur](/zones/namur), deux villes où nous travaillons aussi. Nous venons tourner à Huy en regroupant les prises de vue, pour produire plusieurs semaines de [contenu vidéo](/contenu-video) en une demi-journée.",
+      "Les [campagnes publicitaires](/publicite-meta-linkedin) ciblent Huy et les communes voisines selon la provenance de vos clients, avec des messages différents pour les habitants et les visiteurs si besoin.",
     ],
   },
   communes: {

@@ -41,7 +41,7 @@ const content: ServiceContent = {
     paragraphs: [
       "Nous ne vendons pas un site isolé. Nous le pensons comme la destination de tout votre travail de visibilité : c'est là qu'arrivent les personnes qui ont vu vos vidéos, cliqué sur vos publicités ou cherché votre nom sur Google. Chaque page a un rôle, et chaque rôle mène à une action : appeler, écrire, réserver, demander un devis.",
       "Pour la réalisation technique, ELV8co s'appuie sur un réseau de développeurs et de designers web freelances, choisis pour leur rigueur et leur fiabilité. Nous restons votre interlocuteur unique : nous pilotons le projet, rédigeons ou structurons les contenus, veillons au respect des délais et à la cohérence avec votre image.",
-      "Vous bénéficiez ainsi de l'expertise de spécialistes du web, sans avoir à coordonner plusieurs prestataires, et d'un site parfaitement aligné avec votre personal branding, vos vidéos et vos campagnes.",
+      "Le site est aussi la première chose que vérifie un prospect après avoir lu [comment faire connaître son commerce](/conseils/faire-connaitre-son-commerce-a-liege) ou vu une de nos vidéos. Vous bénéficiez ainsi de l'expertise de spécialistes du web, sans avoir à coordonner plusieurs prestataires, et d'un site parfaitement aligné avec votre personal branding, vos vidéos et vos campagnes.",
     ],
   },
   included: {
@@ -86,7 +86,7 @@ const content: ServiceContent = {
     title: "Ce que vous pouvez attendre",
     paragraphs: [
       "Un site qui s'affiche vite, qui explique clairement ce que vous faites et qui donne envie de vous contacter. Un site qui soutient vos vidéos et vos campagnes au lieu de faire fuir les visiteurs qu'elles vous envoient.",
-      "Et une base solide pour votre référencement local, qui continuera de travailler pour vous jour après jour.",
+      "Et une base solide pour votre référencement local, qui continuera de travailler pour vous jour après jour, avec votre [fiche Google](/conseils/fiche-google-reglages-commerce-local), et qui aide aussi à [être cité par les IA](/conseils/referencement-ia-chatgpt-entreprise-locale). Exemple : le site vitrine réalisé pour [Volt'aqua](/realisations/volt-aqua).",
     ],
     points: [
       "Un site pensé d'abord pour le téléphone",

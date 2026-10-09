@@ -51,8 +51,9 @@ const content: ZoneContent = {
   approach: {
     title: "Comment nous travaillons *à Liège*",
     paragraphs: [
-      "Étant basés à Liège, nous pouvons tourner chez vous facilement, revenir pour une prise de vue rapide, ou nous adapter à un événement de dernière minute. Cette proximité change tout pour la régularité du contenu.",
-      "Pour la publicité, nous travaillons avec des zones de ciblage fines : quelques kilomètres autour de votre commerce, un ensemble de communes, ou tout l'arrondissement selon votre activité. Inutile de payer pour toucher des personnes qui ne viendront jamais.",
+      "Étant basés à Liège, nous pouvons tourner chez vous facilement, revenir pour une prise de vue rapide, ou nous adapter à un événement de dernière minute. Cette proximité change tout pour la régularité du [contenu vidéo](/contenu-video). C'est à Liège que nous avons accompagné [AKP Kustom](/realisations/akp-kustom), un atelier textile, et réalisé l'[audit de Dessy Immo](/realisations/dessy-immo).",
+      "Pour la [publicité Facebook et Instagram](/publicite-meta-linkedin), nous travaillons avec des zones de ciblage fines : quelques kilomètres autour de votre commerce, un ensemble de communes, ou tout l'arrondissement selon votre activité. Inutile de payer pour toucher des personnes qui ne viendront jamais.",
+      "Nous travaillons de la même façon dans toute l'agglomération, à [Seraing](/zones/seraing), [Herstal](/zones/herstal) ou [Ans](/zones/ans), et plus loin à [Huy](/zones/huy), [Visé](/zones/vise) et [Verviers](/zones/verviers). Pour commencer seul, voici [7 actions pour faire connaître son commerce à Liège](/conseils/faire-connaitre-son-commerce-a-liege).",
       "Enfin, nous connaissons l'écosystème local : les événements, les réseaux d'entrepreneurs, les médias et les comptes liégeois qui comptent. Nous nous en servons pour donner plus de portée à vos contenus.",
     ],
   },
