@@ -36,7 +36,7 @@ export const site = {
 
   /** Réseaux sociaux : laissez vide ce qui n'existe pas encore. */
   social: {
-    instagram: "",
+    instagram: "https://www.instagram.com/elv8belgium/",
     linkedin: "",
     facebook: "",
     tiktok: "",
